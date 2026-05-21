@@ -1,0 +1,1119 @@
+﻿platform,title,url,budget_min,budget_max,budget_currency,budget_type,skills,category,posted_date,full_description,description_snippet
+Freelancer.com,Upload WordPress Site to Free Domain,https://www.freelancer.com/projects/web-hosting/upload-wordpress-site-free-domain,10.0,30.0,USD,fixed,WEB HOSTING | Web Hosting | Website Development | Website Management | WordPress Design | WordPress | PHP | HTML | Website Design,Unknown,Unknown,"I have a fully built WordPress website ready to hand over, but I don’t yet have a free domain or hosting space for it. I’m looking for someone who can:
+
+• Recommend a reliable free sub-domain or similar no-cost hosting option. 
+• Set up WordPress there and migrate my site (files, database, plugins, themes—everything) so it runs exactly as on my end. 
+• Hand back the live URL plus administrator credentials and a short note outlining any limits of the chosen free plan (storage, bandwidth, ads, etc.).
+
+Please indicate how quickly you can get the site online and which free platforms you’re comfortable working with (e.g., InfinityFree, 000webhost, [login to view URL] sub-domain, or any better alternative). A smooth, error-free migration and a functioning front-end is the acceptance criteria.","I have a fully built WordPress website ready to hand over, but I don’t yet have a free domain or hosting space for it. I’m looking for someone who can: • Recommend a reliable free sub-domain or similar no-cost hosting option. • Set up WordPress there"
+Freelancer.com,Boost Online Sales Across Platforms and bring more traffic on our online store.,https://www.freelancer.com/projects/digital-marketing/boost-online-sales-across-platforms,1500.0,12500.0,INR,fixed,DIGITAL MARKETING | Digital Marketing | Facebook Ads | Instagram Marketing | YouTube Ads | Internet Marketing | Facebook Marketing | Social Media Marketing | Twitter | Conversion Rate Optimization | Content Marketing,Unknown,Unknown,"Below is our store link: 
+[login to view URL]
+
+Bid only if you are confident that you can achieve success in increasing our online sales target. 
+
+And if you are confident that you can achieve the sales target then you shouldn't be afraid to accept the proposal that you will be paid from the sales revenue.
+
+You will take charge of our entire digital sales funnel on Facebook, Instagram, YouTube, whatsApp and Amazon. The mission is clear: boost qualified traffic to both our website and our Amazon store and turn that traffic into measurable revenue. 
+
+I measure success strictly by results—click-throughs, conversions and sales growth. If you deliver, the role can be permanent into an ongoing monthly engagement with performance-linked incentives in long term.
+
+What I need from you: 
+• A launch plan outlining how you will use Facebook Ads Manager, Instagram Reels/Stories, YouTube ads and Amazon PPC and whatsapp groups to reach, attract and convert buyers. 
+
+• Evidence of past wins—screenshots or live dashboards showing traffic lifts, ROAS, CPC reductions or sales spikes you personally achieved. 
+
+• Clear daily reporting so I can track spend, traffic and sales against agreed targets. 
+
+Self-motivated, data-driven marketers who are comfortable with achieving targets can drop me msg on WhatsApp. Plus nine one, nine two six eight three two zero zero six eight.
+
+ Share your best case studies and a quick snapshots.",Below is our store link: Bid only if you are confident that you can achieve success in increasing our online sales target. And if you are confident that you can achieve the sales target then you shouldn't be afraid to accept the proposal that you wil
+Freelancer.com,Indoor Car Photo Studio Design,https://www.freelancer.com/projects/3d-design/indoor-car-photo-studio-design,10.0,5000.0,USD,fixed,3D DESIGN | 3D Design | 3D Visualization | Architectural Engineering | Electrical Engineering | 3D Modelling | 3D Rendering | 3D Animation | CAD/CAM,Unknown,Unknown,"I’m putting together a dedicated indoor studio built exclusively for photographing cars and need an engineer who can translate my vision into a workable plan. The space must centre on a smooth, motor-driven turntable for seamless 360-degree shots and a purpose-built lighting system that lets us achieve uniform, reflection-controlled illumination from every angle. 
+
+Your task is to develop a full project dossier covering spatial layout, structural and electrical requirements, equipment specifications, and integration details for both the turntable and the bespoke lighting grid. Please factor in load capacities for vehicles up to standard passenger-car weight, ceiling rigging points for softboxes or LED panels, power distribution, ventilation, and a clean cyclorama finish. I also need guidance on recommended brands or component benchmarks where relevant, as well as any compliance notes that affect installation or safety.
+
+Deliverables I expect:
+• Scaled layout drawings and 3-D visualisations showing vehicle flow, turntable placement, and lighting positions 
+• Complete bill of materials with model numbers or equivalent specs for the turntable, lighting fixtures, control systems, and ancillary gear 
+• Electrical and structural load calculations with annotated diagrams 
+• A step-by-step installation and commissioning plan, including testing procedures for the 360-turntable and lighting calibration 
+• Maintenance and operational guidelines once the studio is live 
+
+I’m open to suggestions that refine the concept, provided we stay focused on an indoor setup aimed at cars, the 360-turntable, and advanced lighting as the cornerstone features. If you have prior experience designing automotive or product-photography studios, especially those featuring rotating platforms, I’d love to see examples and hear how you would approach this build.","I’m putting together a dedicated indoor studio built exclusively for photographing cars and need an engineer who can translate my vision into a workable plan. The space must centre on a smooth, motor-driven turntable for seamless 360-degree shots and"
+Freelancer.com,STM32/ESP32 OTA Bootloader Development,https://www.freelancer.com/projects/c-programming/stm-esp-ota-bootloader-development,750.0,1250.0,INR,fixed,C PROGRAMMING | C Programming | Documentation | Electronics | Embedded Software | Embedded Systems | Microcontroller | MQTT,Unknown,Unknown,"Need Embedded Firmware Developer for STM32/ESP32 OTA Bootloader Project
+
+I need an experienced embedded systems developer to help build and/or complete a firmware update solution for an embedded product.
+
+Project Requirements:
+
+* MCU: STM32F765ZG
+* Secondary controller: ESP32
+* Communication between ESP32 and STM32 via UART
+* OTA firmware delivery via MQTT and/or HTTPS
+* ESP32 receives firmware from server/cloud and transfers it to STM32 bootloader
+* STM32 bootloader should:
+ * Receive firmware over UART
+ * Validate firmware integrity (CRC/checksum)
+ * Store firmware safely in flash
+ * Support bootloader + application memory separation
+ * Jump to application after successful update
+ * Handle failed/incomplete update recovery
+ * Support dual-slot or safe update architecture (preferred)
+
+Expected Deliverables:
+
+* Complete working bootloader source code
+* STM32 firmware update protocol implementation
+* ESP32 firmware transfer implementation
+* Flash memory layout / linker configuration
+* Documentation explaining firmware update flow
+* Testing/debug support
+
+Skills Required:
+
+* Embedded C / C++
+* STM32 HAL / STM32CubeIDE / IAR
+* ESP-IDF
+* UART communication
+* Bootloader development
+* OTA firmware systems
+* MQTT / HTTPS
+* CRC / flash memory handling
+
+Please include in your proposal:
+
+* Similar bootloader/OTA projects you’ve completed
+* Experience with STM32 + ESP32 systems
+* Estimated timeline and budget",Need Embedded Firmware Developer for STM32/ESP32 OTA Bootloader Project I need an experienced embedded systems developer to help build and/or complete a firmware update solution for an embedded product. Project Requirements: * MCU: STM32F765ZG * Seco
+Freelancer.com,B2B Ecommerce Platform for Russia,https://www.freelancer.com/projects/api/ecommerce-platform-for-russia,75000.0,150000.0,INR,fixed,API | API | Automation | Zapier | Inventory Management | Salesforce.com | Testing / QA | Accounting | Salesforce App Development,Unknown,Unknown,"We are looking for experienced freelancers or a development team to build a full-scale B2B ecommerce platform for the Russian market.
+
+Project Overview
+
+The platform will be used for wholesale product sales including:
+
+Vape products
+Energy drinks
+Chocolates
+Chips/snacks
+FMCG wholesale products
+
+The system should work as:
+
+Web Application
+Mobile App (Android/iOS compatible)
+Main Requirements
+Multi Dashboard System
+
+We need 3 dashboards:
+
+1. Customer Dashboard
+Product browsing
+Live stock visibility
+Order placement
+Order tracking
+Notifications
+Credit balance system
+Discounts & offers
+2. Warehouse Manager Dashboard
+Manage inventory
+Process orders
+Update dispatch status
+Track stock movement
+Live inventory updates
+3. Admin Dashboard
+Full platform control
+Product & inventory management
+Banner and offer management
+Analytics & reports
+User management
+API integrations
+Important Features
+Russian Payment Integration
+
+The platform will be used in Russia, so standard Visa/Mastercard-only systems are not acceptable.
+
+Need support for:
+
+Russian bank payments
+MIR cards
+SBP payments
+Russian payment gateways
+Live Inventory System
+
+Customers and warehouse managers must see real-time stock updates.
+
+Notification System
+
+Notifications for:
+
+Order status updates
+Promotions
+Discounts
+Payment reminders
+Customer Credit System
+Credit limits for wholesale buyers
+Outstanding balance tracking
+Reorder support
+Secure Infrastructure
+
+Need highly secure backend and database architecture with:
+
+Role-based access
+Secure APIs
+Encrypted data
+Backup system
+Scalable cloud infrastructure
+MoySklad Integration
+
+Need integration with MoySklad APIs for:
+
+Inventory sync
+Orders
+Customer management
+Warehouse operations
+Technology Preference
+
+Open to modern scalable technologies such as:
+
+MERN Stack
+[login to view URL]
+Node.js
+PostgreSQL/MongoDB
+Cloud deployment
+Important
+
+We are looking for:
+
+Long-term collaboration
+Professional UI/UX
+Clean scalable architecture
+Post-project support & maintenance
+
+Please send:
+
+Portfolio
+Similar projects
+Tech stack suggestion
+Estimated timeline
+Estimated budget
+
+Serious developers/agencies only.",We are looking for experienced freelancers or a development team to build a full-scale B2B ecommerce platform for the Russian market. Project Overview The platform will be used for wholesale product sales including: Vape products Energy drinks Chocol
+Freelancer.com,Casual Article on Taj Mahal History,https://www.freelancer.com/contest/casual-article-on-taj-mahal-history-2743420,0.0,0.0,Unknown,unknown,Browse Jobs | Article Writing | Article Writing | Content Writing | Copywriting | Creative Writing | Editing | Fiction | Ghostwriting | Research Writing | View more | Projects,Unknown,Unknown,Unknown,I need an article that tells the well-known historical story behind the Taj Mahal in a way that feels friendly and easy to read. The focus is firmly on confirmed historical facts—no deep dives into obscure trivia this time—yet the piece should still 
+Freelancer.com,Advanced Video Editing for Training,https://www.freelancer.com/projects/video-post-editing/advanced-video-editing-for-training,600.0,1500.0,INR,fixed,VIDEO POST-EDITING | Video Post-editing | Adobe Premiere Pro | Final Cut Pro | After Effects | Video Editing | Video Production | Video Services | Editing | Animation | Camtasia,Unknown,Unknown,"I'm seeking a skilled video editor to enhance educational/training videos. The final output should be in MP4 format.
+
+Key Requirements:
+- Advanced editing: effects, transitions, etc.
+- Experience with educational/training content
+- Proficiency in video editing software
+- Attention to detail and creativity
+- Basic animation","I'm seeking a skilled video editor to enhance educational/training videos. The final output should be in MP4 format. Key Requirements: - Advanced editing: effects, transitions, etc. - Experience with educational/training content - Proficiency in vide"
+Freelancer.com,3D Residential Interior Design,https://www.freelancer.com/projects/3d-design/residential-interior-design,1500.0,12500.0,INR,fixed,3D DESIGN | 3D Design | 3D Architecture | 3D Graphic Design | 3D Visualization | 3D Modelling | 3D Rendering | 3D Animation | 3ds Max,Unknown,Unknown,"I'm looking for a talented 3D interior designer to create a comprehensive design for my entire flat. 
+
+Requirements:
+- Design for all rooms: living room, bedroom, and kitchen.
+- Experience in residential design is a must.
+- 3D modeling skills are essential.
+- Attention to detail and creativity to bring spaces to life.
+
+Please provide a portfolio with similar work.","I'm looking for a talented 3D interior designer to create a comprehensive design for my entire flat. Requirements: - Design for all rooms: living room, bedroom, and kitchen. - Experience in residential design is a must. - 3D modeling skills are essen"
+Freelancer.com,E-Commerce VA for Meesho/JioMart,https://www.freelancer.com/projects/customer-service/commerce-for-meesho-jiomart,100.0,400.0,INR,fixed,CUSTOMER SERVICE | Customer Service | Google Sheets | Order Processing | Inventory Management | Virtual Assistant | Excel | eCommerce,Unknown,Unknown,"I run active stores on both Meesho and Jio Mart and need a reliable virtual assistant who can keep day-to-day operations running smoothly. Every day you will download fresh order reports, confirm and process those orders inside each seller panel, update dispatch status once tracking numbers go live, and record everything in a shared Excel sheet so I can see sales, returns, and pending shipments at a glance. 
+
+Customer messages arrive throughout the day; you’ll answer basic product inquiries, follow up on delayed deliveries, and raise tickets with the platform when needed, always keeping wording friendly and professional to protect my seller rating. 
+
+Accurate stock levels are critical. You’ll cross-check my supplier lists with live listings, adjust quantities or set items out of stock before they oversell, and note low-inventory items in the spreadsheet so I can reorder on time. 
+
+Required familiarity: seller dashboards for both Meesho and Jio Mart, plus confident use of Excel or Google Sheets for real-time collaboration. If you’ve managed returns or claims on either platform, let me know—that experience will be a bonus. 
+
+I expect quick same-day order processing, zero unanswered customer queries by end of shift, and an up-to-date inventory sheet by close of business. Let’s keep the stores running efficiently together.","I run active stores on both Meesho and Jio Mart and need a reliable virtual assistant who can keep day-to-day operations running smoothly. Every day you will download fresh order reports, confirm and process those orders inside each seller panel, upd"
+Freelancer.com,i want to doo some thing special and unic,https://www.freelancer.com/projects/web-development/want-doo-some-thing-special,75000.0,150000.0,INR,fixed,WEB DEVELOPMENT | Web Development | Frontend Development | Mobile App Development | Flutter | CSS | HTML | Website Design,Unknown,Unknown,"I’d like a small, self-contained “starter” project that I can unpack, read through, and tinker with on my own. I’m deliberately keeping the brief open so you can suggest something that you feel showcases best practices without being overwhelming—think of it as a well-structured demo I can finish reviewing in an afternoon, then expand at my own pace.
+
+A basic web app, a lightweight mobile prototype, or even a neat graphic-design exercise are all welcome; the key is that it stays simple yet meaningful, is clearly commented or annotated, and runs out of the box with minimal setup.
+
+Please include:
+
+• The complete project files (source code or layered design assets) 
+• A concise README or walkthrough explaining how to run or open it, why you chose the structure you did, and a couple of ideas for next steps I could try on my own
+
+If any specific tools, frameworks, or design software are involved—React, Flutter, Figma, plain HTML/CSS, etc.—just note the versions and install commands so I can follow along smoothly. My main acceptance criterion is that I can get everything working exactly as shown in your README in under 15 minutes.
+
+Feel free to suggest what you think would make the most instructive “first” project, and let me know roughly how long you’ll need to put it together.","I’d like a small, self-contained “starter” project that I can unpack, read through, and tinker with on my own. I’m deliberately keeping the brief open so you can suggest something that you feel showcases best practices without being overwhelming—thin"
+Freelancer.com,Social Media Traffic & Sales,https://www.freelancer.com/projects/digital-marketing/social-media-traffic-sales,1500.0,12500.0,INR,fixed,DIGITAL MARKETING | Digital Marketing | Facebook Ads | Instagram Marketing | YouTube Ads | Internet Marketing | Facebook Marketing | Twitter Marketing,Unknown,Unknown,"Below is our store link: 
+[login to view URL]
+
+Bid only if you are confident that you can acchive success in achiving the online sales target. 
+
+And if you are confident that you can achieve the sales target then you shouldn't be afraid to accept the proposal that you will be paid from the sales revenue.
+
+You will take charge of our entire digital sales funnel on Facebook, Instagram, YouTube, whatsApp and Amazon. The mission is clear: boost qualified traffic to both our website and our Amazon store and turn that traffic into measurable revenue. 
+
+I measure success strictly by results—click-throughs, conversions and sales growth. If you deliver, the role can be permanent into an ongoing monthly engagement with performance-linked incentives in long term.
+
+What I need from you: 
+• A launch plan outlining how you will use Facebook Ads Manager, Instagram Reels/Stories, YouTube ads and Amazon PPC and whatsapp groups to reach, attract and convert buyers. 
+
+• Evidence of past wins—screenshots or live dashboards showing traffic lifts, ROAS, CPC reductions or sales spikes you personally achieved. 
+
+• Clear daily reporting so I can track spend, traffic and sales against agreed targets. 
+
+Self-motivated, data-driven marketers who are comfortable with achieving targets can drop me msg on WhatsApp. Plus nine one, nine two six eight three two zero zero six eight.
+
+ Share your best case studies and a quick snapshots.",Below is our store link: Bid only if you are confident that you can acchive success in achiving the online sales target. And if you are confident that you can achieve the sales target then you shouldn't be afraid to accept the proposal that you will 
+Freelancer.com,Connect a blank website to my domain name,https://www.freelancer.com/projects/website-design/connect-blank-website-domain-name,30.0,250.0,USD,fixed,WEBSITE DESIGN | Website Design | Website Management | Web Hosting | Email Developer,Unknown,Unknown,"Connect a Wordpress website template to my domain name and host my website yearly.
+I will edit the site you just have to put the 2 together and just it and make 3 email addresses to go with it. 
+I will give you all the login details and you just put them together and tell me your yearly hosting fee. 
+It will be 40 pages but no editing required",Connect a Wordpress website template to my domain name and host my website yearly. I will edit the site you just have to put the 2 together and just it and make 3 email addresses to go with it. I will give you all the login details and you just put t
+Freelancer.com,Performance Marketing for Health Supplements across Meta,https://www.freelancer.com/projects/digital-marketing/performance-marketing-for-health,10.0,11.0,USD,fixed,DIGITAL MARKETING | Digital Marketing | Facebook Ads | Instagram Marketing | Data Analysis | Meta Pixel | Visual Design | Google Canvas | Adobe Flash,Unknown,Unknown,"Our organization is seeking a data-driven, highly proficient Performance Marketing Agency to manage, optimize, and execute our paid advertising campaigns across the Meta ecosystem (Facebook, Instagram, and WhatsApp).
+We specialize in food supplements and healthcare products marketed to an international audience. Due to the sensitive and highly regulated nature of the health and wellness sector across different global regions, we require an agency partner with deep experience in navigating strict compliance landscapes.
+While our internal team will spearhead and provide the core creative assets and foundational strategies, we require an agency partner to stress-test our plans, handle tactical international media buying, optimize cost efficiencies, and meticulously safeguard our ad accounts from policy restrictions.
+
+2. Scope of Work & Key Responsibilities
+The selected agency will be responsible for the technical deployment, algorithmic optimization, and strict policy management of our Meta Ads ecosystem.
+Strategy Finalization & Media Buying: Review and stress-test internally generated strategies. Provide data-backed recommendations on budget allocation, international targeting, and cross-border funnel architecture.
+Campaign Execution: End-to-end setup, structuring, tracking, and execution of campaigns across Facebook, Instagram, and WhatsApp, optimized for international regions.
+Conversion Tracking & Data Infrastructure: Ongoing maintenance and optimization of Meta Pixel, Conversions API (CAPI), and offline event tracking to ensure data accuracy across different country domains.
+Hyper-Strict Policy Compliance & Risk Mitigation: Proactively audit all ad setups, ad copy, visual hooks, and landing pages. The agency must ensure flawless adherence to Meta’s policies regarding Health, Wellness, Supplements, and Medical claims, preventing ad rejections, Business Manager restrictions, or permanent account bans.
+
+3. Key Performance Indicators (KPIs) & Goals
+The agency will be evaluated on their ability to move the needle on the following key metrics across our target international markets:
+Metric
+Target Objective
+CPR (Cost Per Result)
+Primary Focus: Systematic reduction through international audience refinement, placement optimization, and algorithmic maturation.
+ATR (Action Taker Rate)
+Improve the efficiency of international users moving from ad impressions and clicks to concrete actions.
+Impressions & Reach
+Maximize visibility and ad delivery efficiency within specified target geographies without increasing ad fatigue.
+Conversion Rate (CVR)
+Drive higher bottom-of-funnel actions (purchases, leads, or WhatsApp consultations) across localized markets.
+
+
+4. Sector-Specific Challenges & Expectations
+A. Meta Compliance for Healthcare & Supplements
+The health and supplement niche faces intense scrutiny from Meta’s automated compliance bots. The agency must have a proven track record of navigating restrictions regarding:
+""Before and After"" imagery or unrealistic body/health expectations.
+Implied or explicit disease-curing claims.
+Misleading health/dietary statements.
+B. International Nuances
+Operating in international markets requires an understanding of cross-border localization, managing WhatsApp infrastructure globally, and understanding regional ad delivery behavior.
+
+5. Operational & Partnership Structure
+To ensure a seamless workflow, the operational dynamics will be structured as follows:
+Creative & Ideation (Internal Team): We will provide the creative angles, copy variations, hooks, and overall strategic vision for our supplement and healthcare lines.
+Media Buying & Technical Optimization (Agency): The agency will handle structure, campaign configurations, international target testing, scaling mechanics, and technical feedback on what creative formats are algorithmically performing best.
+Meta Compliance Assurance: The agency must serve as our first line of defense against Meta policy violations, ensuring a zero-ban, zero-restriction track record despite the high-risk nature of the healthcare niche.","Our organization is seeking a data-driven, highly proficient Performance Marketing Agency to manage, optimize, and execute our paid advertising campaigns across the Meta ecosystem (Facebook, Instagram, and WhatsApp). We specialize in food supplements"
+Freelancer.com,Geomagic Elephant STEP Conversion,https://www.freelancer.com/projects/3d-cad/geomagic-elephant-step-conversion,30.0,250.0,USD,fixed,3D CAD | 3D CAD | Reverse Engineering | 3D Printing | 3D Design | 3D Modelling | Solidworks | CAD/CAM | 3D Rendering,Unknown,Unknown,"I’m providing a high-resolution mesh of an elephant in max file and other files and need it transformed into a single, watertight STEP solid via reverse-engineering in Geomagic Design. The finished file must retain the original proportions, surface texture cues, and overall anatomical accuracy so it can head straight to 3D printing with no visible distortion or faceting.
+
+Deliverables
+• Native Geomagic Design project file showing the reconstruction history 
+• Final STEP (.step/.stp) solid, validated as manifold and error-free 
+• Snapshot or brief report confirming tolerance checks and that all key textures and features were preserved 
+• The updated mesh or comparison overlay illustrating fidelity between source and solid
+
+Acceptance criteria
+– All limbs, tusks, ears, and skin folds match the supplied mesh within acceptable print tolerance (±0.2 mm). 
+– No hollow shells, self-intersections, or non-manifold edges remain. 
+– File imports into common slicers without repair. 
+
+If questions arise about intended wall thickness or printable orientation, let me know early so we can lock those details before you finalize the STEP.","I’m providing a high-resolution mesh of an elephant in max file and other files and need it transformed into a single, watertight STEP solid via reverse-engineering in Geomagic Design. The finished file must retain the original proportions, surface t"
+Freelancer.com,Looking for Creative Web Developers (UI-Focused),https://www.freelancer.com/projects/web-development/looking-for-creative-web-developers,25.0,50.0,USD,fixed,WEB DEVELOPMENT | Web Development | UI / User Interface | React.js | Tailwind CSS | JavaScript | Node.js | Website Design | CSS,Unknown,Unknown,"Hey everyone.
+
+I recently joined Freelancer and I’m looking forward to building long-term collaboration and trust within the freelance community.
+
+Right now, I’m searching for creative and innovative web developers to work with on a DeFi staking project that’s part of a larger blockchain ecosystem.
+
+I’m especially interested in developers who have a sharp eye for UI/UX and enjoy building clean, modern interfaces.
+
+*One important thing:
+I’m not only looking at years of experience, big resumes, or major company backgrounds. I know there are many talented developers out there with strong skills and fresh ideas who simply haven’t had the opportunity to work on large projects yet.
+
+So if you’re passionate, creative, and confident in your abilities, feel free to reach out.
+
+Tech Stack (Current)
+- React.js / [login to view URL]
+- Tailwind CSS
+- Node.js
+- Web3 integrations
+- What I Need Help With
+- Improving the frontend/UI
+- Refining the user experience
+- Helping shape the design direction
+- Building a polished staking dashboard/interface
+
+Experience with Web3 or DeFi is a plus, but mindset, creativity, and communication matter more to me.
+
+Feel free to send:
+
+- A short intro
+- Portfolio/GitHub (if available)
+- Previous projects or concepts
+- Your availability
+
+Looking forward to connecting with talented people here!","Hey everyone. I recently joined Freelancer and I’m looking forward to building long-term collaboration and trust within the freelance community. Right now, I’m searching for creative and innovative web developers to work with on a DeFi staking projec"
+Freelancer.com,Part-Time Social Video Editor -- 2,https://www.freelancer.com/projects/adobe-premiere-pro/part-time-social-video-editor-40458975,750.0,1250.0,INR,fixed,ADOBE PREMIERE PRO | Adobe Premiere Pro | Final Cut Pro | Motion Graphics | Social Media Marketing | Video Editing | After Effects | Video Production | Video Services,Unknown,Unknown,"I’m searching for a creative video editor who can take raw footage and turn it into polished, scroll-stopping social-media clips on a part-time, ongoing basis. The focus is short-form content for platforms such as Instagram Reels, TikTok, and YouTube Shorts. Typical tasks include trimming, pacing to trending audio, colour correcting, adding dynamic text or simple motion graphics, and exporting in vertical formats that preserve quality and meet platform specs.
+
+I’ll supply the video assets, brand guidelines, and key messaging for each clip. You’ll return the finished MP4 (and the project file) within the agreed turnaround window, ready to publish. Reliability, a good eye for engaging cuts, and familiarity with Adobe Premiere Pro or Final Cut Pro are essential. If you’re comfortable suggesting creative ideas to boost watch-time and engagement, even better.
+
+Please share a link to at least three recent social-media edits that showcase your style and any metrics they achieved if available. Let me know your weekly availability and preferred workflow so we can align on a smooth, part-time schedule.","I’m searching for a creative video editor who can take raw footage and turn it into polished, scroll-stopping social-media clips on a part-time, ongoing basis. The focus is short-form content for platforms such as Instagram Reels, TikTok, and YouTube"
+Freelancer.com,Looking for a Storyboard / Styleframe Designer for a 2-Minute Explainer Video,https://www.freelancer.com/projects/2d-animation/looking-for-storyboard-styleframe,250.0,750.0,EUR,fixed,2D ANIMATION | 2D Animation | Storyboard | Motion Design | Explainer Videos | Animation | Motion Graphics | After Effects | Visual Design | Graphic Design,Unknown,Unknown,"I’m looking for an experienced motion design storyboard / styleframe designer for a 2-minute explainer video.
+
+I will provide the visual style reference and the voiceover text. Your task is to create clear visual scenes based on the script.
+
+The storyboard should not be character-based. The direction should be more abstract and geometric, using shapes, clean compositions, visual metaphors, and motion-friendly scene ideas.
+
+You should have experience designing styleframes or storyboards specifically for animation, and files should be well organized with clear layers for later animation.
+
+Please send relevant examples of storyboard, styleframe, or motion design work.",I’m looking for an experienced motion design storyboard / styleframe designer for a 2-minute explainer video. I will provide the visual style reference and the voiceover text. Your task is to create clear visual scenes based on the script. The storyb
+Freelancer.com,Beginner Python Guidance via Videochat,https://www.freelancer.com/projects/numpy/beginner-python-guidance-via-videochat,10.0,30.0,USD,fixed,NUMPY | NumPy | Debugging | Coding | Programming | Python | Software Architecture | Machine Learning (ML) | Java,Unknown,Unknown,"I’m building my very first Python project and would like to work through it live, on camera, with someone who can explain each step in plain language. The code itself is still simple—think beginner-level loops, functions, and a bit of NumPy for some introductory machine-learning experiments—but I want to understand why things work, not just copy-paste solutions.
+
+Here’s how I picture the collaboration:
+
+• Short video-chat sessions (Zoom, Meet, or similar) where we share screens and walk through my current hurdles in real time. 
+• Clear explanations of core syntax, function structure, and debugging strategies so I can spot and fix my own mistakes. 
+• Gentle introduction to libraries such as NumPy—and, if time allows, a first look at basic machine-learning workflows—so I know when and how to use them. 
+• A brief recap or annotated code snippet after each call, summarising what we covered, so I have something concrete to review between sessions.
+
+I’ll bring specific questions to each meeting to keep things focused, and I’m happy to schedule sessions around your availability. If you’re patient, enjoy teaching, and can demonstrate concepts live while I code along, let’s get started!","I’m building my very first Python project and would like to work through it live, on camera, with someone who can explain each step in plain language. The code itself is still simple—think beginner-level loops, functions, and a bit of NumPy for some "
+Freelancer.com,Article on Delhi’s Historic Landmarks,https://www.freelancer.com/contest/article-on-delhirsquos-historic-landmarks-2743415,0.0,0.0,Unknown,unknown,Browse Jobs | Article Rewriting | Article Rewriting | Article Writing | Copywriting | Editing | Ghostwriting | Proofreading | Research | Research Writing | View more | Projects,Unknown,Unknown,Unknown,"No,context, project complete."
+Freelancer.com,Single-Story 2D House Plan,https://www.freelancer.com/contest/singlestory-d-house-plan-2743414,0.0,0.0,Unknown,unknown,Browse Jobs | 2D Drafting | 2D Drafting | Architecture | AutoCAD | Building Architecture | Building Design | CAD/CAM | Drafting | Revit | View more | Projects,Unknown,Unknown,Unknown,"I’m putting together a clear, construction-ready 2D plan for a single-story home and need someone who can translate my layout ideas into a tidy, scaled drawing. The design must include two well-proportioned bedrooms, a functional kitchen, and a comfo"
+Freelancer.com,Colour Trading Website Development,https://www.freelancer.com/projects/css/colour-trading-website-development,1500.0,12500.0,INR,fixed,CSS | CSS | HTML | PHP | SEO | Web Design | Web Development | Website Design | Website Optimization,Unknown,Unknown,"I need a clean, modern website that presents my colour-trading concept in a way that immediately builds trust and curiosity. For launch I only require a single, well-structured Home page, but that page has to do a lot of work: introduce the brand, explain how colour trading works, and—most importantly—deliver easy-to-follow trading tutorials right on the page.
+
+The tutorials can be embedded videos, step-by-step text, or a mix of both; whatever you recommend for clear learning flow. I’m open to HTML/CSS from scratch, WordPress with a solid builder, or another framework you’re confident will load quickly and look great on mobile. Responsive design and SEO-friendly markup are a must.
+
+Once the Home page is live and polished, I may add About Us and Services sections, so please build with scalability in mind. If you have experience turning niche financial concepts into intuitive web experiences, let’s talk and get this site online fast.","I need a clean, modern website that presents my colour-trading concept in a way that immediately builds trust and curiosity. For launch I only require a single, well-structured Home page, but that page has to do a lot of work: introduce the brand, ex"
+Freelancer.com,Build a real estate tech app,https://www.freelancer.com/projects/mobile-app-development/build-real-estate-tech-app,37500.0,75000.0,INR,fixed,MOBILE APP DEVELOPMENT | Mobile App Development | API Development | Frontend Development | Backend Development | User Interface / IA | Real Estate | LLM Integration | Python | Typescript,Unknown,Unknown,Build a real estate tech app -,"Build a real estate tech app - Requirements: 1. 3 months of commitment 2. Proficiency in Agentic AI, evaluations - should have worked on atleast 10 deployed projects for AI 3. Languages/Framework - Experience of 5+ years in Python, Type script, React"
+Freelancer.com,Gaming YouTube Shorts Editor Needed,https://www.freelancer.com/projects/sound-design/gaming-youtube-shorts-editor-needed,600.0,1500.0,INR,fixed,SOUND DESIGN | Sound Design | YouTube | Video Post-editing | Adobe Premiere Pro | Video Editing | After Effects | Video Production | Video Services | Video Processing | Video Ads,Unknown,Unknown,"I’ve just launched a channel where five to six friends square off in party and board games inside a small studio. Every shoot produces a single long-form video plus a handful of laugh-out-loud moments that deserve their own shorts and reels. 
+
+The edit I’m after is intentionally simple: clean cuts that keep the banter flowing, on-screen titles or headings to introduce the game and each round, and the occasional sound effect to punch up big reactions. No heavy VFX—timing and clarity matter most. 
+
+You’ll receive the raw multicam files and will return: 
+• One to three widescreen episode (16:9, H.264, 1080p or 4K) ready for YouTube. 
+• Five to eight vertical clips (9:16, 30–60 sec) formatted for YouTube Shorts and Instagram Reels, each with titles. 
+
+We’ll start with roughly two episode per week while the channel is in its startup phase. If the chemistry is right, volume will ramp up quickly—potentially daily shorts. Consistent pacing, prompt delivery, and an ear for comedic timing are what I value most. 
+
+Share any previous gaming, vlog, or talk-show edits that showcase straightforward cuts with light text and sound work when you reply.",I’ve just launched a channel where five to six friends square off in party and board games inside a small studio. Every shoot produces a single long-form video plus a handful of laugh-out-loud moments that deserve their own shorts and reels. The edit
+Freelancer.com,YouTube Video Creation,https://www.freelancer.com/projects/youtube/youtube-video-creation-40458955,30.0,250.0,USD,fixed,YOUTUBE | YouTube | Audio Editing | Color Grading | Video Post-editing | Video Editing | Video Production | Video Services | Videography,Unknown,Unknown,"I'll discuss future detail via chat.
+I have footage and a basic concept ready for my next YouTube upload and need a skilled editor to turn it into a polished, engaging video. From trimming and pacing to colour grading, audio balancing, tasteful titles and a compelling intro/outro, I’m open to your creative touch so the final cut feels professional and keeps viewers hooked.
+
+I will share all raw clips, logos and any reference material the moment we start. Please tell me your usual turnaround time, revision policy and—most importantly—send over links to previous YouTube projects you’ve completed so I can see your style in action.
+
+Deliverables:
+• One fully edited, YouTube-ready MP4 (H.264, 1080p or 4K)
+• All editable project files
+• A custom thumbnail that follows YouTube’s recommended dimensions
+
+Once I sign off on the final version, I’ll handle the upload myself. Looking forward to collaborating on a video that truly stands out.","I'll discuss future detail via chat. I have footage and a basic concept ready for my next YouTube upload and need a skilled editor to turn it into a polished, engaging video. From trimming and pacing to colour grading, audio balancing, tasteful title"
+Freelancer.com,Modern PDF Catalogue & Profile,https://www.freelancer.com/projects/print-design/modern-pdf-catalogue-profile,1500.0,12500.0,INR,fixed,PRINT DESIGN | Print Design | Branding | Editorial Design | Visual Design | Graphic Design | Adobe InDesign | Brochure Design | Covers & Packaging,Unknown,Unknown,"I’m ready to launch a fresh, modern look for my Art n Objects brand and need a designer who can shape two key pieces:
+
+• A clean, modern-minimalist product catalogue in PDF 
+• A matching brand/profile document that introduces the studio and showcases recently completed projects
+
+What I’ll supply 
+– A structured list of products with captions, specs and prices 
+– High-resolution product shots 
+– Finished-project photos for the profile section 
+– Brand logo files and any copy I’ve already drafted 
+
+What I’m looking for 
+The layout should feel airy and uncluttered, built around neutral tones that let the artwork speak. Negative space, balanced typography and a refined grid are important. I’ll need the final PDFs ready for both on-screen viewing and high-quality print, plus the packaged source files (InDesign or similar) so I can update them later.
+
+Key milestones 
+1. Mood board / two style directions for sign-off 
+2. First draft of catalogue & profile (low-res PDF for review) 
+3. Final PDFs + packaged files after any revisions
+
+If you have a portfolio that shows minimalist editorial design—especially art, furniture, or lifestyle pieces—I’d love to see it.","I’m ready to launch a fresh, modern look for my Art n Objects brand and need a designer who can shape two key pieces: • A clean, modern-minimalist product catalogue in PDF • A matching brand/profile document that introduces the studio and showcases r"
+Freelancer.com,Biology Notes & Romance Storywriting,https://www.freelancer.com/projects/academic-writing/biology-notes-romance-storywriting,750.0,1250.0,INR,fixed,ACADEMIC WRITING | Academic Writing | Biology | Creative Writing,Unknown,Unknown,"I have two distinct yet equally important pieces of work that I’d like the same creative mind to handle.
+
+First, I need crisp, exam-oriented written notes for Class 11 and 12 Biology. The notes must cover Cell Structure and Function in detail and extend into related units such as plant and human reproduction, plant physiology, and any supporting sub-topics that connect these chapters. Present the material in clear headings and short paragraphs, weaving in labelled diagrams, key definitions, and quick recap tables so a student can revise at a glance. A single, well-organised PDF (or editable Word file) is ideal.
+
+Second, I would like an original romance story. The tone should be engaging and age-appropriate for young adults, with a smoothly paced plot, believable dialogue, and an uplifting resolution. I’m open on setting and length as long as the narrative feels complete; around 8,000–10,000 words tends to work well, but surprise me if you have a stronger structure in mind.
+
+Deliverables
+• Class 11–12 Biology notes (PDF/Word)
+• Original romance story (Word/Google Doc)
+• One round of revisions on each piece after I review
+
+If you’re comfortable switching hats between scientific precision and creative storytelling, let’s talk timelines and milestones so we can get both pieces polished and ready.","I have two distinct yet equally important pieces of work that I’d like the same creative mind to handle. First, I need crisp, exam-oriented written notes for Class 11 and 12 Biology. The notes must cover Cell Structure and Function in detail and exte"
+Freelancer.com,Minimalist Commercial Website Design,https://www.freelancer.com/projects/figma/minimalist-commercial-website-design,250.0,750.0,GBP,fixed,FIGMA | Figma | Web Design | UI / User Interface | Website Design | Graphic Design,Unknown,Unknown,"I'm seeking a Figma expert to design a modern, minimalist static website for a commercial purpose. 
+
+Requirements:
+- Design a clean, user-friendly layout
+- Focus on a modern and minimalist aesthetic
+- No interactive elements required, static design only
+
+Ideal Skills and Experience:
+- Proficiency in Figma
+- Strong portfolio in minimalist web design
+- Experience in creating commercial websites
+
+Please provide samples of similar work done.","I'm seeking a Figma expert to design a modern, minimalist static website for a commercial purpose. Requirements: - Design a clean, user-friendly layout - Focus on a modern and minimalist aesthetic - No interactive elements required, static design onl"
+Freelancer.com,AI Data Center Energy Optimization,https://www.freelancer.com/projects/3d-modelling/data-center-energy-optimization,50.0,50.0,USD,fixed,3D MODELLING | 3D Modelling | 3D Rendering | AI (Artificial Intelligence) HW/SW | AutoCAD | Engineering,Unknown,Unknown,"I'm looking for an expert to design an optimal energy mix for a small-scale AI data center in Saudi Arabia. The goal is to maximize energy efficiency using a hybrid supply of grid, photovoltaic (PV), and battery energy storage systems (BESS).
+
+Key Requirements:
+- Design an energy infrastructure from scratch
+- Integrate wind turbines as a renewable source
+- Co-optimization tools to enhance energy efficiency
+
+Ideal Skills and Experience:
+- Expertise in energy systems design, particularly for data centers
+- Experience with hybrid energy systems and renewable integration
+- Proficiency in co-optimization tools and energy efficiency modeling
+- Knowledge of the Saudi Arabian energy market and regulations
+
+Please provide a detailed plan and any relevant past projects.","I'm looking for an expert to design an optimal energy mix for a small-scale AI data center in Saudi Arabia. The goal is to maximize energy efficiency using a hybrid supply of grid, photovoltaic (PV), and battery energy storage systems (BESS). Key Req"
+Freelancer.com,"Remove Crowd, Preserve Original Scene",https://www.freelancer.com/projects/adobe-photoshop/remove-crowd-preserve-original-scene,10.0,30.0,USD,fixed,ADOBE PHOTOSHOP | Adobe Photoshop | Image Processing | Background Removal | Visual Effects | Photoshop | Photo Editing | Graphic Design | Photoshop Design,Unknown,Unknown,"I need the background people edited out while keeping absolutely everything else—me, the fountain, the lighting, reflections, and overall ambiance—exactly the same. No blurs, no substituted backdrops; it should look as if the onlookers were never there in the first place.
+
+Please deliver:
+• A high-resolution JPEG that matches the original dimensions and color profile. 
+• A layered PSD (or equivalent) showing your non-destructive edits so I can tweak if needed.
+
+Speed is important—I’m hoping to have the finished files ASAP. If you’re comfortable using Photoshop’s content-aware tools, precise clone-stamping, and manual retouching for natural results, this should be a straightforward task. Let me know how quickly you can turn it around and feel free to ask for the original file right away.","I need the background people edited out while keeping absolutely everything else—me, the fountain, the lighting, reflections, and overall ambiance—exactly the same. No blurs, no substituted backdrops; it should look as if the onlookers were never the"
+Freelancer.com,"PLSQL, Java & Git Support",https://www.freelancer.com/projects/git/plsql-java-git-support,30.0,250.0,USD,fixed,GIT | Git | JUnit | Oracle | Database Management | Java | J2EE | JSP | Software Architecture,Unknown,Unknown,"I need a reliable extra pair of hands to work alongside me on an Oracle-backed, Java-driven application. Day-to-day you’ll move between three main areas: 
+
+PLSQL: writing complex queries, crafting or refactoring stored procedures/functions, and tuning anything that drags. If you can read execution plans and know how to trim milliseconds through indexing or hints, you’ll feel right at home.
+
+Java: the codebase frequently needs new features added, pesky bugs traced and fixed, and the occasional round of ruthlessly focused optimisation. It’s largely Spring, Maven and JUnit, but clean core-Java skills and an eye for performance are what matter most.
+
+Git: every change lives in a feature branch and reaches me through a pull request. Clear commit messages, sensible branching and zero “works-on-my-machine” surprises are mandatory.
+
+Deliverables for each task will typically be:
+• Updated PLSQL scripts or objects that compile and run
+• Java source changes that build cleanly and pass existing tests
+• A Git branch with well-documented commits ready to merge
+
+I’ll review work in a staging environment and sign off once your changes run error-free and introduce no new warnings. If you’re comfortable jumping between SQL*Plus, an IDE and the command line—and you enjoy solving performance puzzles—let’s get started.","I need Support personal help for day to day tasks related to PLSQL and JAVA. PLSQL: writing complex queries, crafting or refactoring stored procedures/functions, and tuning anything that drags. If you can read execution plans and know how to trim mil"
+Freelancer.com,Single Vendor E-commerce Site Development,https://www.freelancer.com/projects/web-development/single-vendor-commerce-site-development,12500.0,37500.0,INR,fixed,WEB DEVELOPMENT | Web Development | SEO | UI / User Interface | Payment Gateway Integration | Website Design | PHP | HTML | Graphic Design,Unknown,Unknown,"I'm seeking a skilled developer to build a single vendor e-commerce website for selling physical products. The site should support credit/debit card payments.
+
+Key requirements:
+- User-friendly interface
+- Secure payment integration for credit/debit cards
+- Mobile-responsive design
+- Robust product management system
+- SEO optimization
+
+Ideal skills and experience:
+- Proven track record in e-commerce website development
+- Expertise in payment gateway integration
+- Strong understanding of SEO and UI/UX design principles
+- Experience with mobile-responsive design",I'm seeking a skilled developer to build a single vendor e-commerce website for selling physical products. The site should support credit/debit card payments. Key requirements: - User-friendly interface - Secure payment integration for credit/debit c
+Freelancer.com,Article on Delhi’s Historic Landmarks,https://www.freelancer.com/contest/article-on-delhirsquos-historic-landmarks-2743407,0.0,0.0,Unknown,unknown,Browse Jobs | Article Rewriting | Article Rewriting | Article Writing | Copywriting | Editing | Ghostwriting | Proofreading | Research | Research Writing | View more | Projects,Unknown,Unknown,Unknown,"I’d like a well-researched, engaging article that spotlights three of Delhi’s most celebrated monuments—Red Fort, Qutub Minar and Humayun’s Tomb. For each site I want the narrative to weave together a concise historical background, notable architectu"
+Freelancer.com,Classic Portfolio Catalogue Design,https://www.freelancer.com/projects/print-design/classic-portfolio-catalogue-design,1500.0,12500.0,INR,fixed,PRINT DESIGN | Print Design | Adobe Creative Suite | Adobe InDesign | Adobe Illustrator | Graphic Design | Brochure Design | Photoshop | Covers & Packaging,Unknown,Unknown,"I need a classic and professional portfolio catalogue designed. 
+
+Requirements:
+- Type: Portfolio catalogues
+- Style: Classic and professional
+- Content: Project descriptions
+
+Ideal skills and experience:
+- Graphic design expertise
+- Experience with portfolio layout
+- Strong eye for classic design aesthetics",I need a classic and professional portfolio catalogue designed. Requirements: - Type: Portfolio catalogues - Style: Classic and professional - Content: Project descriptions Ideal skills and experience: - Graphic design expertise - Experience with por
+Freelancer.com,Data Entry and Analysis,https://www.freelancer.com/projects/copy-typing/data-entry-analysis-40458934,600.0,600.0,INR,fixed,COPY TYPING | Copy Typing | Data Entry | Data Processing | Excel | Virtual Assistant,Unknown,Unknown,You need data entry and analysis work completed within 12 hours. The work will be conducted between 11 AM to 10 PM.,You need data entry and analysis work completed within 12 hours. The work will be conducted between 11 AM to 10 PM.
+Freelancer.com,Engaging Jaipur Tourism Article Needed,https://www.freelancer.com/contest/engaging-jaipur-tourism-article-needed-2743404,0.0,0.0,Unknown,unknown,Browse Jobs | Article Writing | Article Writing | Blog Writing | Content Writing | Copywriting | Creative Writing | Ghostwriting | SEO | Travel Writing | View more | Projects,Unknown,Unknown,Unknown,"I need a feature-style article that inspires first-time international visitors to put Jaipur at the very top of their itinerary. The piece should strike a balance between vivid storytelling and practical guidance, walking readers through the Pink Cit"
+Freelancer.com,Sell Hyderabad Coworking Space,https://www.freelancer.com/projects/sales/sell-hyderabad-coworking-space,75000.0,150000.0,INR,fixed,SALES | Sales | Real Estate | Business Development | Lead Generation | Market Research | Contract Management | Financial Consulting | Business Consulting,Unknown,Unknown,"I own a profitable, fully-operational coworking space in Hyderabad and am ready to exit. The standout asset is our loyal, contract-bound client base, giving any new owner immediate, predictable cash flow.
+
+Your role is to locate and secure an individual investor, steer negotiations, and carry the deal through to closing. I will compensate you solely with a success fee once the sale is completed—there are no upfront or retainer payments.
+
+Key deliverables 
+• Qualified individual-investor leads with proof of funds 
+• A signed Letter of Intent followed by a definitive sale agreement 
+• Coordination of due diligence and handover until funds clear
+
+Acceptance criteria 
+• Final purchase agreement executed by both parties 
+• Full payment transferred to my account
+
+Feel free to use whatever mix of channels—social media, real-estate portals, email outreach, or your own network—gets the job done. Let’s talk if you have a track record of closing similar asset sales and are confident you can match us with the right buyer.","I own a profitable, fully-operational coworking space in Hyderabad and am ready to exit. The standout asset is our loyal, contract-bound client base, giving any new owner immediate, predictable cash flow. Your role is to locate and secure an individu"
+Freelancer.com,Meditation Benefits Article Writing,https://www.freelancer.com/projects/article-rewriting/meditation-benefits-article-writing,750.0,1250.0,INR,fixed,ARTICLE REWRITING | Article Rewriting | Article Writing | Blog Writing | Concept Design | Copywriting | Ghostwriting | Research | Research Writing | SEO | Video Editing,Unknown,Unknown,"I’m building a resource hub that highlights why meditation is more than a trend, and I need a talented writer to create clear, engaging written articles focused solely on the benefits of meditation. Your job is to translate solid research into practical, inspiring reading that helps beginners understand how meditation can improve sleep, mood, productivity, and overall wellbeing.
+
+Deliverables
+• Five original articles, 800–1,000 words each, each covering a distinct benefit theme 
+• Conversational tone backed by credible, cited sources (academic journals, medical sites) 
+• SEO-friendly structure with compelling headlines and sub-heads 
+• Google Docs delivery, ready for immediate publication 
+
+If you’ve written wellness or mindfulness pieces before, please share a link or short excerpt and let me know your turnaround time for the first draft. I’m excited to see how you can bring the science and the soul of meditation together on the page.","I’m building a resource hub that highlights why meditation is more than a trend, and I need a talented writer to create clear, engaging written articles focused solely on the benefits of meditation. Your job is to translate solid research into practi"
+Freelancer.com,N8n Social Workflow Developer,https://www.freelancer.com/projects/n8n/social-workflow-developer,750.0,1500.0,USD,fixed,N8N | n8n | API | Automation | Social Media Management | JavaScript | PHP | Mobile App Development | C# Programming,Unknown,Unknown,"I need an experienced n8n builder to create a a custom workflows that run as an “agent” across my social channels—Facebook Pages, Instagram Business, TikTok and YouTube. The goal is simple: automate the repetitive steps that consume my day. I want to generate commercials at least 60 seconds long.
+
+Here’s what I’m after: I drop creative into a google Doc, the agent should instantly read it and create a commercial then push it to each platform, apply the right captions / hashtags, log the post URL in Airtable, and then keep checking for comments or DMs so I can receive a single consolidated Slack alert instead of bouncing between apps. Native APIs are preferred over third-party schedulers so the workflows stay fast and future-proof.
+
+Deliverables 
+• Import-ready n8n workflow JSON files for each platform, clearly named and modular 
+• A brief README or Loom walkthrough explaining environment variables, required API keys and how to extend the flows 
+• Proof of concept run (screenshots or short video) showing one piece of content travelling end-to-end
+
+Acceptance criteria 
+The flows must execute without manual intervention, handle basic error retries, and be built only with core n8n nodes or official community nodes—no paid plugins. If you’ve tackled a similar social automation stack before, share a quick example so I can see your style.","I need an experienced n8n builder to create a a custom workflows that run as an “agent” across my social channels—Facebook Pages, Instagram Business, TikTok and YouTube. The goal is simple: automate the repetitive steps that consume my day. I want to"
+Freelancer.com,Social Posts & Short Videos,https://www.freelancer.com/projects/adobe-photoshop/social-posts-short-videos,8.0,15.0,USD,fixed,ADOBE PHOTOSHOP | Adobe Photoshop | Adobe Premiere Pro | After Effects | Animation | Canva | Content Creation | Graphic Design | Social Media Marketing | Video Editing | Video Production,Unknown,Unknown,"I want a creative partner who can regularly craft eye-catching content for Facebook, Instagram, and TikTok. The mix I’m after is equal parts promotional—highlighting products, offers, or brand news—and entertaining to keep the feeds lively and share-worthy.
+
+For video, stick to short 30-60 second vertical clips that feel native to Reels and TikTok. I’ll supply raw visuals, product shots, or briefing notes; you handle editing, motion graphics, sound, and any light copy so the files are upload-ready.
+
+Static or carousel posts should arrive with polished imagery, on-brand typography, concise captions, and suggested hashtags. Tools such as Canva, Adobe Photoshop, Illustrator, Premiere Pro, Final Cut, or CapCut are all fine—use what helps you hit a clean, scroll-stopping look.
+
+Deliverables I need from you:
+• Finished graphics or videos in platform-ready dimensions 
+• Captions and hashtags in a simple doc or spreadsheet 
+• Source files in case tweaks are needed later 
+
+We’ll start with a modest batch so I can see style and engagement, then scale to an ongoing schedule. Let me know your approach to ideation, turnaround time, and any metrics you track so we can keep improving each cycle.","I want a creative partner who can regularly craft eye-catching content for Facebook, Instagram, and TikTok. The mix I’m after is equal parts promotional—highlighting products, offers, or brand news—and entertaining to keep the feeds lively and share-"
+Freelancer.com,Taj Mahal Love Story Article,https://www.freelancer.com/contest/taj-mahal-love-story-article-2743402,0.0,0.0,Unknown,unknown,Browse Jobs | Article Writing | Article Writing | Content Writing | Copywriting | Creative Writing | Editing | Fiction | Ghostwriting | Research Writing | View more | Projects,Unknown,Unknown,Unknown,"I need a richly textured article on the Taj Mahal that illuminates its historical significance through the timeless love story of Shah Jahan and Mumtaz Mahal. The narrative should feel romantic and emotional, yet remain firmly rooted in verifiable fa"
+Freelancer.com,Exit Letter Severance Review,https://www.freelancer.com/projects/legal-consultation/exit-letter-severance-review,250.0,750.0,EUR,fixed,LEGAL CONSULTATION | Legal Consultation | Legal Review | Legal Analysis | Legal Assistance | Employment Law | Legal Writing,Unknown,Unknown,"I have just received a redundancy exit letter and need an employment-law professional to look over it immediately. My primary concern is whether the severance package being offered matches contractual entitlements and whether any clauses could limit future claims or create post-employment restrictions that should be challenged. 
+
+I need someone to review
+
+1) The Exit Letter
+2) My Counter Letter 
+3) Provide Advice on Both
+
+Thanks,",I have just received a redundancy exit letter and need an employment-law professional to look over it immediately. My primary concern is whether the severance package being offered matches contractual entitlements and whether any clauses could limit 
+Freelancer.com,Futuristic 3D Power Plant Video,https://www.freelancer.com/projects/3d-animation/futuristic-power-plant-video,750.0,1500.0,USD,fixed,3D ANIMATION | 3D Animation | 3D Architecture | 3D Design | 3D Graphic Design | 3D Modelling | 3D Rendering | 3D Visualization | Animation,Unknown,Unknown,"I need a 1–2-minute 3D marketing piece that sweeps viewers through our planned 1.4 GW combined-cycle gas turbine power plant and its wider industrial ecosystem. The video has to feel innovative and forward-looking, with smooth, engaging animations and smart transitions that keep the energy high while still conveying technical credibility.
+
+To ground the story, you will build a faithful 3D model of the actual site from map data. From there, the camera should glide through every major component—turbines, HRSG, steam turbine generator, cooling systems and the control building—then trace the gas feed pipeline from the entry point right into the plant. Water systems matter too, so include WTP and STP visuals with believable water-flow animation.
+
+Beyond the fence line, I want the narrative to widen: hover over our future Technology Park (data centres, R&D labs, manufacturing units, logistics hubs) and show the private grid, substations and real-time power flow fanning out to neighbouring industries. Open and close with cinematic aerial shots, crisp labels and concise callouts so even non-engineers grasp the scale and strategic value. A small set of high-resolution stills of the plant and surroundings will round out the package.
+
+Key deliverables
+• Fully textured, geo-referenced 3D site model 
+• Seamless fly-through/over animation covering all plant areas and infrastructure links 
+• Water-flow, gas-flow and power-flow animated sequences 
+• Cinematic intro & outro with titles, labels and callouts 
+• 4–6 polished 3D still renders suitable for print and web
+
+Please tell me:
+• A link to past work that proves you can achieve this quality (show me your best!) 
+• Rough timeline and milestone breakdown 
+• Preferred tools or engines—Unreal Engine, Blender, 3ds Max, Maya, Houdini etc.—so I understand the pipeline
+
+I’m ready to move quickly once I see a portfolio that matches the futuristic, high-impact style I have in mind.","I need a 1–2-minute 3D marketing piece that sweeps viewers through our planned 1.4 GW combined-cycle gas turbine power plant and its wider industrial ecosystem. The video has to feel innovative and forward-looking, with smooth, engaging animations an"
+Freelancer.com,"[Rengo, Chile] Hiring urine specimen collector for pre-employment drug testing",https://www.freelancer.com/projects/odd-jobs/rengo-chile-hiring-urine-specimen,35.0,45.0,USD,fixed,ODD JOBS | Odd Jobs | Local Job,Unknown,Unknown,"Summary
+We are part of a global network providing drug testing services, with a presence in multiple countries.
+
+Our client requires us to conduct drug testing in San Martin, , Rengo, Libertador General Bernardo O\', 2940310, Chile. This testing is part of a pre-employment background check for new hires. As a certified company, we do not require you to have any prior licenses or experience. We will provide comprehensive training, necessary supplies, and tools.
+
+Responsibilities:
+
+- Collect samples from the client's residence or office, or arrange to rent a meeting room for the session. Meeting room rental costs will be covered by us.
+- Perform the testing following our guidelines.
+- Send the test results to us.
+
+We will compensate you for each test conducted.","Summary We are part of a global network providing drug testing services, with a presence in multiple countries. Our client requires us to conduct drug testing in San Martin, , Rengo, Libertador General Bernardo O', 2940310, Chile. This testing is par"
+Freelancer.com,"[Santiago, Chile] Hiring urine specimen collector for pre-employment drug testing",https://www.freelancer.com/projects/odd-jobs/santiago-chile-hiring-urine-specimen,35.0,45.0,USD,fixed,ODD JOBS | Odd Jobs | Local Job,Unknown,Unknown,"Summary
+We are part of a global network providing drug testing services, with a presence in multiple countries.
+
+Our client requires us to conduct drug testing in 55, Mar del Sur, Vina del Mar, Valparaiso, 2550732, Chile. This testing is part of a pre-employment background check for new hires. As a certified company, we do not require you to have any prior licenses or experience. We will provide comprehensive training, necessary supplies, and tools.
+
+Responsibilities:
+
+- Collect samples from the client's residence or office, or arrange to rent a meeting room for the session. Meeting room rental costs will be covered by us.
+- Perform the testing following our guidelines.
+- Send the test results to us.
+
+We will compensate you for each test conducted.","Summary We are part of a global network providing drug testing services, with a presence in multiple countries. Our client requires us to conduct drug testing in 55, Mar del Sur, Vina del Mar, Valparaiso, 2550732, Chile. This testing is part of a pre"
+Freelancer.com,"[Valparaíso, Chile] Hiring urine specimen collector for pre-employment drug testing",https://www.freelancer.com/projects/odd-jobs/valpara-chile-hiring-urine-specimen,35.0,45.0,USD,fixed,ODD JOBS | Odd Jobs | Local Job,Unknown,Unknown,"Summary
+We are part of a global network providing drug testing services, with a presence in multiple countries.
+
+Our client requires us to conduct drug testing in 55, Mar del Sur, Vina del Mar, Valparaiso, 2550732, Chile. This testing is part of a pre-employment background check for new hires. As a certified company, we do not require you to have any prior licenses or experience. We will provide comprehensive training, necessary supplies, and tools.
+
+Responsibilities:
+
+- Collect samples from the client's residence or office, or arrange to rent a meeting room for the session. Meeting room rental costs will be covered by us.
+- Perform the testing following our guidelines.
+- Send the test results to us.
+
+We will compensate you for each test conducted.","Summary We are part of a global network providing drug testing services, with a presence in multiple countries. Our client requires us to conduct drug testing in 55, Mar del Sur, Vina del Mar, Valparaiso, 2550732, Chile. This testing is part of a pre"
+Freelancer.com,Equity Partner Wanted - Junior Developer (USA / Europe) - Live Sports + AI Mobile App,https://www.freelancer.com/projects/react-native/equity-partner-wanted-junior-developer,8.0,15.0,USD,fixed,REACT NATIVE | React Native | Node.js | Git | 3D Animation | Android | iPhone | Animation | Unity 3D | Mobile App Development | Web Development,Unknown,Unknown,"Type: Partnership / Equity only (NOT paid hourly — please read fully before bidding)
+Commitment: Part-time, flexible hours
+Location: USA or Europe only
+
+ABOUT THE PROJECT
+We're building a mobile app (iOS + Android) that pairs live football matches with an AI-driven 3D anime character who provides real-time spoken commentary. Think of it as a companion who watches the match with you, reacts emotionally to every goal and red card, and chats with you about what's happening — all powered by live match data and modern AI.
+
+The product is already built and functional. We have:
+- A working React Native mobile app
+- A Node.js / TypeScript backend
+- A web admin dashboard (Vite + React)
+- Integrated LLM commentary, ElevenLabs TTS, Whisper STT, and LiveKit real-time audio
+- A 3D rigged anime avatar with mouth-sync, facial expressions, and emotional reactions
+- Live football data across 13 major European, American, and international competitions
+- Native in-app purchases (iOS + Android) with a credits-based economy
+- Predictions, chat, voice interaction, and a polished UI
+
+We're heading into a major peak window in mid-2026 tied to the World Cup, and we need a hands-on partner to help us push it across the finish line and scale.
+
+WHAT YOU'D BE DOING
+- Fixing bugs, polishing UI, improving stability
+- Helping ship updates to TestFlight / Play Store
+- Tuning real-time voice latency and the avatar pipeline
+- Small backend tasks (REST endpoints, webhook handling, data ingestion)
+- Whatever needs doing — small team, hands dirty
+
+WHAT WE'RE LOOKING FOR
+- Junior level is perfectly fine — you don't need to be senior, but you must be coachable, reliable, and genuinely interested
+- Some experience with React Native OR Node.js / TypeScript (one is enough)
+- Comfortable with Git / GitHub
+- Located in USA or Europe (we need overlapping working hours)
+- English communication
+- Passionate about football, AI, or anime — bonus if all three
+- Self-driven: this is a partnership, not a job; nobody will micromanage you
+
+WHAT THIS IS NOT
+- Not a paid contract — no hourly rate, no fixed fee
+- Not full-time — you keep your day job / studies
+- Not a ""work for free and maybe get paid"" trap — we'll sign a written partnership/equity agreement
+- Not for agencies — individuals only
+
+WHAT YOU GET
+- Equity / revenue share in the project (terms negotiated based on contribution)
+- Real ownership in a launched product entering a huge market window
+- Hands-on experience with a modern AI + real-time stack (LiveKit, ElevenLabs, Whisper, LLM orchestration, React Native, IAP)
+- A small, focused team where your work ships immediately
+
+HOW TO APPLY
+Please include:
+1. A short intro — who you are, where you're based, and why this project interests you
+2. Your GitHub or any code samples (small personal projects are totally fine)
+3. Confirmation that you understand this is an equity / partnership role, not paid work
+4. Roughly how many hours per week you can realistically commit
+
+Bids without these will be ignored. Looking forward to meeting future partners.","Type: Partnership / Equity only (NOT paid hourly — please read fully before bidding) Commitment: Part-time, flexible hours Location: USA or Europe only ABOUT THE PROJECT We're building a mobile app (iOS + Android) that pairs live football matches wit"
+Freelancer.com,Modern 3BHK Interior 3D Design,https://www.freelancer.com/projects/3d-design/modern-bhk-interior-design-40458900,600.0,1500.0,INR,fixed,3D DESIGN | 3D Design | 3D Studio Max | SketchUp | Revit | 3D Modelling | 3D Rendering | 3D Animation | 3ds Max,Unknown,Unknown,"I’m ready to have my entire 3-bedroom apartment translated into a cohesive, photorealistic 3D model that follows a clean Modern aesthetic and stays within a calm, neutral palette. The focus is on the three key zones—living room, kitchen, and all bedrooms—so each space must feel connected yet distinct.
+
+You will receive my floor plan, furniture references, and a short brief on functional needs as soon as the project starts. From there, I’ll need:
+
+• A full 3D model built in the software you are most comfortable with (3ds Max, SketchUp, Revit, or similar). 
+• High-resolution still renders of each highlighted room, showing both daylight and evening lighting scenarios. 
+• A short walkthrough animation (30–45 sec) that ties the spaces together. 
+• Source files delivered in an organized folder structure so I can request edits later if needed.
+
+Please include a quick note on your expected turnaround time and any previous Modern, neutral-toned interiors you’ve rendered—links or images are fine. I’ll review portfolios and move quickly to award once I see a style match.","I’m ready to have my entire 3-bedroom apartment translated into a cohesive, photorealistic 3D model that follows a clean Modern aesthetic and stays within a calm, neutral palette. The focus is on the three key zones—living room, kitchen, and all bedr"
+Freelancer.com,Dynamic YouTube Video Editor Needed,https://www.freelancer.com/projects/adobe-premiere-pro/dynamic-youtube-video-editor-needed-40458912,600.0,1500.0,INR,fixed,ADOBE PREMIERE PRO | Adobe Premiere Pro | Motion Graphics | Audio Editing | Color Grading | After Effects | Video Editing | Animation | Video Production | Sound Design | Visual Effects,Unknown,Unknown,"I’m putting together a roster of skilled editors who can make short-form YouTube pieces (always under five minutes) feel cinematic, energetic, and impossible to click away from. You’ll receive the script I’ve written for each episode along with the reference video that captures the pace, humor, and motion-graphic flair I expect; your job is to turn those words into a visually addictive cut.
+
+What matters most is timing: snappy openers, seamless jump-cuts, clever speed-ramps, and transitions that flow naturally into animated captions and on-screen graphics. The audio layer is equally important—sound effects, risers, and background music must punch and fade in perfect sync with the visuals, followed by a polished color grade that keeps the palette vibrant yet consistent.
+
+For this contest round, craft a short sample in the style of the reference link. Use Premiere Pro, After Effects, or the tools you’re most comfortable with so long as the final export looks and feels modern. Show me:
+
+• Your sense of rhythm and pacing 
+• Creative motion graphics that support (not distract from) the narrative 
+• Clean audio mixing and thoughtful music selection 
+We need only 1 min video for now in this contest 
+If your sample nails the brief, we’ll discuss ongoing projects with my agency on a paid, long-term basis. I review entries quickly and give direct, constructive feedback, so feel free to experiment and push creative boundaries. Good luck, and I’m excited to see how you bring the script to life.","I’m putting together a roster of skilled editors who can make short-form YouTube pieces (always under five minutes) feel cinematic, energetic, and impossible to click away from. You’ll receive the script I’ve written for each episode along with the r"
+Freelancer.com,Tranquil Backyard Retreat Design,https://www.freelancer.com/projects/landscape-design/tranquil-backyard-retreat-design,5000.0,10000.0,USD,fixed,LANDSCAPE DESIGN | Landscape Design | 3D Visualization | Building Design,Unknown,Unknown,"I'm looking for a professional landscape designer to create a relaxing backyard space. The primary focus is on relaxation.
+
+Key Requirements:
+- Design a serene seating area
+- Incorporate built-in seating like benches
+- Create a tranquil atmosphere
+
+Ideal Skills and Experience:
+- Landscape design expertise
+- Experience with built-in seating structures
+- Strong aesthetic sense for relaxation-focused spaces
+
+Potentially a covered deck and/or pergola.",I'm looking for a professional landscape designer to create a relaxing backyard space. The primary focus is on relaxation. Key Requirements: - Design a serene seating area - Incorporate built-in seating like benches - Create a tranquil atmosphere Ide
+Freelancer.com,Full-Scope Tally Bookkeeping,https://www.freelancer.com/projects/bank-reconciliation/full-scope-tally-bookkeeping,1250.0,2500.0,INR,fixed,BANK RECONCILIATION | Bank Reconciliation | Financial Analysis | Data Entry | PDF | Accounting | Intuit QuickBooks | Bookkeeping | Excel,Unknown,Unknown,"I’m looking for a seasoned bookkeeper who works comfortably in Tally and can take over the entire back-office accounting cycle for my business.
+
+The work covers every routine task—entering and coding payables, posting receivables, reconciling multiple bank and card accounts, drafting monthly financial statements, and wrapping up the books at year-end for a clean “final accounting.” Accuracy and timeliness are essential; I rely on these numbers for cash-flow decisions.
+
+Deliverables
+• Daily/weekly posting of all AP & AR transactions in Tally 
+• End-of-month bank and credit-card reconciliations with supporting schedules 
+• Monthly P&L, Balance Sheet, and Cash-Flow Statement exported from Tally (PDF & Excel) 
+• Year-end close with adjusting entries and a summary hand-over note
+
+I’ll provide remote access to the current Tally data file, source documents, and a short orientation on our chart of accounts. Please highlight your Tally experience, estimated turnaround times for each cycle, and any questions you need answered before we start.","I’m looking for a seasoned bookkeeper who works comfortably in Tally and can take over the entire back-office accounting cycle for my business. The work covers every routine task—entering and coding payables, posting receivables, reconciling multiple"
+Freelancer.com,Bulk WhatsApp Campaign Strategy,https://www.freelancer.com/projects/digital-marketing/bulk-whatsapp-campaign-strategy,10.0,30.0,USD,fixed,DIGITAL MARKETING | Digital Marketing | Email Marketing | Social Media Marketing | Content Creation | Sales | Marketing | Internet Marketing | Business Writing,Unknown,Unknown,"I have a clean list of about 100,000 Indian phone numbers and I’m ready to introduce a new physical product to them through WhatsApp. The goal is straightforward: promote the product in a professional, formal tone without tripping any spam filters and while remaining fully compliant with WhatsApp policies. 
+
+I need a marketer who can take ownership of everything from concept to delivery—refining the core offer, crafting a formally worded template, guiding it through template approval (WhatsApp Business API), segmenting the list, scheduling batches, and monitoring performance in real time. Hands-on experience with bulk-messaging platforms such as WhatsApp Business API, Twilio, WATI, Gupshup, or similar is a must so we stay within platform limits and still reach the whole audience quickly. 
+
+Deliverables 
+• One formally written, pre-approved WhatsApp message template promoting the product 
+• A sending plan that spells out batching, timing, opt-out language, and compliance steps 
+• Execution of the broadcast to the full 100,000-number list 
+• Post-campaign report covering sent, delivered, read rates, and user replies 
+
+If you’ve managed large-scale WhatsApp promotions before—especially for physical products—let me know the tools you used and the delivery or engagement metrics you achieved. I’m open to creative ideas that keep us compliant yet maximize reach and response.","I have a clean list of about 100,000 Indian phone numbers and I’m ready to introduce a new physical product to them through WhatsApp. The goal is straightforward: promote the product in a professional, formal tone without tripping any spam filters an"
+Freelancer.com,Embedded Systems Research Assistant – Assistive Technology Project,https://www.freelancer.com/projects/embedded-systems/embedded-systems-research-assistant,20.0,250.0,GBP,fixed,EMBEDDED SYSTEMS | Embedded Systems | MATLAB | Microcontroller | Arduino | Electrical Engineering | Electronics | I2C | Data Collection | Simulation | Data Analysis,Unknown,Unknown,"I am seeking a motivated Embedded Systems Research Assistant to support the development, simulation, and experimental validation of a low-cost electronic assistive subsystem for blind and visually impaired users. The project focuses on electronics-level performance, including power consumption, response latency, communication reliability, and system efficiency.
+
+The work will involve MATLAB/Simulink modelling, ESP32-based hardware setup, sensor interfacing, audio/haptic feedback systems, and bench-level experimental validation.
+
+The successful candidate will:
+- Develop and test MATLAB/Simulink models for an embedded assistive system.
+- Support the design of an ESP32-based prototype using sensors, communication modules, and feedback devices.
+- Model system operating modes such as idle, sensing, processing, communication, and feedback.
+- Measure power consumption, latency, response time, and communication reliability.
+- Assist with experimental validation using bench-level hardware.
+- Compare simulation results with real hardware measurements.
+- Prepare plots, tables, technical notes, and documentation for project reporting.
+-Support troubleshooting of embedded circuits, sensor communication, and data logging.
+
+Required Skills and Experience
+- Embedded systems and microcontroller-based design.
+- ESP32, Arduino, or similar development boards.
+- MATLAB and Simulink modelling.
+- I2C, I2S, UART, BLE, or Wi-Fi communication.
+- Basic electronic circuit design and testing.
+- Sensor interfacing, especially IMU or distance sensors.
+- Data collection, analysis, and performance evaluation.
+- Power measurement and latency testing.
+
+The Research Assistant will contribute to:
+
+- A MATLAB/Simulink model of the assistive subsystem.
+- Power consumption and latency measurement results.
+- Simulation versus experimental comparison.
+- Design recommendations for low-cost assistive electronics.
+- Supporting documentation for the final research report.
+
+This role is suitable for an engineering student, graduate, or early-career researcher with strong interest in embedded systems, electronics, assistive technology, and simulation-based design. The ideal candidate should be practical, detail-oriented, and comfortable working with both software models and physical hardware.","I am seeking a motivated Embedded Systems Research Assistant to support the development, simulation, and experimental validation of a low-cost electronic assistive subsystem for blind and visually impaired users. The project focuses on electronics-le"
+Freelancer.com,"Site Verification in Sydney, Australia",https://www.freelancer.com/projects/photography/site-verification-sydney-australia,30.0,40.0,USD,fixed,PHOTOGRAPHY | Photography | Business Analysis | Inspections | Local Job | Travel Ready,Unknown,Unknown,"Confirmis ([login to view URL]) is a Singapore-based business information provider specializing in connecting businesses with global capabilities; comprised of industry veterans, Confirmis's business model is designed to overcome perennial lack of data (let alone quality data) to support effective decision-making, particularly in developing economies. 
+
+As a Site Verifier, you will be responsible for verifying a residence existence through visual data by conducting a site visit to ensure that we provide reliable and accurate information to our client. 
+
+JOB DESCRIPTION: 
+• Take pictures of the residence and its vicinity per Confirmis’ standard operating guidelines. 
+• Take picture of the surrounding area and provide observation about the residence 
+
+REQUIREMENTS: 
+• Must be living in (or nearby) 100 William Street, Sydney, NSW, Australia
+• Has a camera or phone/tablet of quality with a camera, internet access 
+• Must be available during business hours (9 AM - 4 PM) on working days 
+
+Please see the attached file for the site visit guidelines. You are only required to deliver the pictures, video & observations and are not expected to assemble a report like the Sample Report. 
+
+Note: 
+- 1 city can only be taken by one freelancer (on a first-come, first-served basis) 
+- The milestone will be released the following week (Monday) after the site visit to give us time to organize the report and contact you if we need additional clarification.","Confirmis () is a Singapore-based business information provider specializing in connecting businesses with global capabilities; comprised of industry veterans, Confirmis's business model is designed to overcome perennial lack of data (let alone quali"
+Freelancer.com,Live TikTok Business Setup Coaching,https://www.freelancer.com/projects/social-media-marketing/live-tiktok-business-setup-coaching,30.0,250.0,USD,fixed,SOCIAL MEDIA MARKETING | Social Media Marketing | Shopify | Digital Marketing | Social Media Management | Business Coaching | Marketing Strategy | Analytics | Content Creation,Unknown,Unknown,"I’m looking for someone who can jump on a voice call with screen-sharing right away and walk me step-by-step through setting up three separate TikTok Business accounts. By the end of the session I want every account fully functional and ready to launch campaigns.
+
+Here’s what we’ll cover while we’re on the call:
+
+• Create or verify each Business Center and Ads Manager account 
+• Install and test the TikTok Pixel so it fires correctly on my Shopify store 
+• Link Shopify to each ad account and confirm catalogue syncing 
+• Navigate the different sections inside Business Center vs. Ads Manager so I know where everything lives 
+• Build at least one sample campaign, focusing on Ad Campaign Setup and Management (that’s the area I most want to master) 
+
+All creative assets are already prepared, so we can concentrate entirely on the technical configuration and best-practice workflow. I’m familiar with other ad platforms, but I need this hands-on walkthrough to understand TikTok’s unique structure, terminology and levers.
+
+You should be comfortable sharing your screen, explaining as you go, and answering quick questions in real time. The session starts as soon as you’re available, and we’ll finish when all three accounts are connected, the pixel events are verified, and I feel confident launching an ad on my own.",I’m looking for someone who can jump on a voice call with screen-sharing right away and walk me step-by-step through setting up three separate TikTok Business accounts. By the end of the session I want every account fully functional and ready to laun
+Freelancer.com,Documentary Channel Intro & Logo Animation,https://www.freelancer.com/projects/logo-design/documentary-channel-intro-logo-animation,40.0,50.0,USD,fixed,LOGO DESIGN | Logo Design | 2D Animation | Sound Design | Video Production | Animation | After Effects | 3D Animation | Video Editing | Motion Graphics | Graphic Design,Unknown,Unknown,"VAST ! Intro & Logo Animation
+
+
+Hello,
+
+I need two short motion graphics intros for my English documentary YouTube channel called VAST !
+
+Channel name: VAST !
+Handle: @vastindex
+Logo Font:Inter Black
+Instagram / TikTok: @vastindex
+Main logo color: FF5900
+
+VAST is a premium English-language documentary channel focused on real stories, untold histories, forgotten events, science, space, disasters, investigations, unsolved cases, unusual human stories, and events that shaped the world.
+
+The tone should feel:
+
+serious, cinematic, modern, investigative, intelligent, minimal, and premium.
+
+Please avoid anything that feels like:
+
+gaming intro, flashy neon, cheap glitch effects, overdramatic trailer style, loud YouTuber intro, cartoonish animation, excessive particles, or too much movement.
+
+The intro should feel suitable for a documentary channel, not a gaming or entertainment channel.
+
+⸻
+
+Deliverables
+
+I need two separate versions:
+
+1. Transparent Logo Animation
+
+A short logo animation that can be placed inside the video, over existing footage.
+
+Length: 3–5 seconds
+Background: Transparent
+Format: MOV with alpha channel / ProRes 4444 preferred
+Usage: To place in the middle of documentary videos as a subtle branded logo animation.
+
+This version should be clean and minimal. It should not cover too much of the screen or distract from the video.
+
+The logo can appear with a subtle cinematic motion, soft reveal, slight light movement, or elegant fade. The animation should feel premium and controlled.
+
+⸻
+
+2. Full Channel Intro
+
+A short intro that summarizes the identity of the channel.
+
+Length: maximum 5–10 seconds
+Format: 4K and 1080p versions preferred
+Style: Cinematic documentary intro
+Usage: To use at the beginning of selected VAST videos.
+
+The intro may include visual elements that represent:
+
+* real stories
+* history
+* science
+* space
+* disasters
+* investigations
+* unsolved cases
+* archives
+* maps
+* documents
+* mysterious but factual stories
+
+Possible visual language:
+
+* dark cinematic background
+* subtle archive textures
+* maps / coordinates / document details
+* soft camera movement
+* minimal data or investigation-style elements
+* controlled orange accent using #FF5900
+* elegant logo reveal
+
+The intro should end with:
+
+VAST !
+
+Optionally, very subtly:
+
+@vastindex
+
+But the main focus should be the logo and the channel name.
+
+⸻
+
+Important Style Direction
+
+The intro should feel like it belongs to a serious documentary brand.
+
+References in tone:
+
+* modern documentary opening
+* investigation documentary graphics
+* premium YouTube documentary channel
+* subtle cinematic logo reveal
+* archive / mystery / global story atmosphere
+
+The animation should create curiosity, but it should not feel like conspiracy content.
+
+It should feel reliable, intelligent, and clean.
+
+⸻
+
+Sound Design
+
+Please include subtle sound design if possible.
+
+Preferred sound direction:
+
+* soft cinematic hit
+* low-frequency impact
+* subtle whoosh
+* clean documentary-style sound
+* no loud gaming sounds
+* no aggressive trailer boom
+* no overused YouTube intro sounds
+
+The sound should support the intro, not overpower it.
+
+⸻
+
+Files Needed
+
+Please deliver:
+
+* Final video files
+* Transparent logo animation file with alpha channel
+* 4K version if possible
+* 1080p version
+* Source project file if possible
+* Font information if any font is used
+* Version without sound if possible
+* Version with sound if possible
+
+⸻
+
+Main Goal
+
+The goal is to create a short, premium, memorable identity for VAST.
+
+The viewer should feel:
+
+“This is a serious, well-researched documentary channel.”
+
+Not loud.
+Not childish.
+Not flashy.
+Not gaming-style.
+
+Clean, dark, cinematic, minimal, and trustworthy.","VAST ! Intro & Logo Animation Hello, I need two short motion graphics intros for my English documentary YouTube channel called VAST ! Channel name: VAST ! Handle: @vastindex Logo Font:Inter Black Instagram / TikTok: @vastindex Main logo color: FF5900"
+Freelancer.com,Detailed Circular Icons for Dock,https://www.freelancer.com/contest/detailed-circular-icons-for-dock-2743429,0.0,0.0,Unknown,unknown,Browse Jobs | Adobe Illustrator | Adobe Illustrator | Adobe Photoshop | Graphic Design | Icon Design | Illustration | Photoshop | SVG | Vector Design | View more | Projects,Unknown,Unknown,Unknown,"I need four custom icons that visually explain the key selling points of my modular dock system. The style must be distinctly detailed rather than flat or minimalist, with a muted-color palette so they sit harmoniously against a clean website layout."
+Freelancer.com,Modern Minimalist Logo Design,https://www.freelancer.com/projects/adobe-illustrator/modern-minimalist-logo-design-40459003,600.0,1500.0,INR,fixed,ADOBE ILLUSTRATOR | Adobe Illustrator | Vector Design | Adobe Creative Cloud | Adobe Photoshop | Logo Design | Graphic Design | Photoshop | Illustrator,Unknown,Unknown,"I need a modern, minimalist logo for my packaging company. The logo must be delivered in both vector format and Adobe format.
+
+Requirements:
+- Modern and minimalist design
+- Neutral color scheme
+- Delivered in vector and Adobe formats
+- Quick turnaround is essential (ASAP)
+
+Ideal Skills & Experience:
+- Proven logo design expertise
+- Proficiency in vector and Adobe formats
+- Strong portfolio in modern and minimalist designs
+- Ability to meet tight deadlines
+
+Please include relevant portfolio samples in your bids.","I need a modern, minimalist logo for my packaging company. The logo must be delivered in both vector format and Adobe format. Requirements: - Modern and minimalist design - Neutral color scheme - Delivered in vector and Adobe formats - Quick turnarou"
+Freelancer.com,Real Estate Lead Generation VA,https://www.freelancer.com/projects/lead-generation/real-estate-lead-generation-40459005,10.0,30.0,USD,fixed,LEAD GENERATION | Lead Generation | Research | Google Sheets | Real Estate | Data Entry | Excel | Virtual Assistant | Web Search | Data Management | Database Development,Unknown,Unknown,"REAL ESTATE DATA RESEARCH VA NEEDED – REALTOR LEAD LIST BUILDING
+
+I am seeking a highly organized Virtual Assistant to build targeted Realtor lead lists for a nationwide homebuyer education and mortgage readiness company.
+
+PROJECT GOAL:
+Create high-quality Realtor databases in specific U.S. cities for outreach and partnership development related to:
+
+* First-time homebuyers
+* Conventional loans
+* Down payment assistance
+* Mortgage readiness education
+* Buyer approval preparation
+
+INITIAL TARGET MARKET:
+San Antonio, Texas
+
+WHAT I NEED:
+Research and compile Realtor information into Excel or Google Sheets.
+
+DATA FIELDS REQUIRED:
+
+1. Realtor Name
+2. Brokerage Name
+3. Email Address
+4. Phone Number
+5. Website
+6. City/State
+7. Social Media Links (if available)
+8. Notes if they specialize in:
+
+ * First-Time Homebuyers
+ * Conventional Loans
+ * Down Payment Assistance
+ * Buyer Education
+
+TARGET:
+
+* 500 Realtors initially
+* Clean and accurate data only
+* No duplicate entries
+* Must verify emails as much as possible
+
+IDEAL CANDIDATE:
+
+* Strong internet research skills
+* Experience with lead generation
+* Attention to detail
+* Familiarity with U.S. real estate industry preferred
+* Ability to follow instructions carefully
+
+This may become an ongoing long-term project for multiple U.S. cities.",REAL ESTATE DATA RESEARCH VA NEEDED – REALTOR LEAD LIST BUILDING I am seeking a highly organized Virtual Assistant to build targeted Realtor lead lists for a nationwide homebuyer education and mortgage readiness company. PROJECT GOAL: Create high-qua
+Freelancer.com,Modern Business Portfolio Homepage Design,https://www.freelancer.com/projects/ui-design/modern-business-portfolio-homepage,30.0,250.0,USD,fixed,UI / USER INTERFACE | UI / User Interface | Web Design | Figma | Website Design | Graphic Design | User Interface / IA,Unknown,Unknown,"I’m looking for a talented UI/web designer to redesign the portfolio section of a business website homepage.
+
+The goal is to create a clean, modern, and premium-looking portfolio showcase that feels similar to high-end startup and agency websites.
+
+Requirements:
+
+- Modern and minimal UI design
+- Portfolio/project showcase section
+- Image-based project cards or gallery
+- Short project descriptions
+- Strong typography and spacing
+- Responsive desktop + mobile layout
+- Subtle hover effects and smooth image transitions
+- Figma design preferred
+
+Style inspiration:
+
+- Framer
+- Linear
+- Stripe
+
+I want the section to feel professional, visually polished, and easy to browse without being overly complicated.
+
+Please send examples of previous website UI/portfolio work.","I’m looking for a talented UI/web designer to redesign the portfolio section of a business website homepage. The goal is to create a clean, modern, and premium-looking portfolio showcase that feels similar to high-end startup and agency websites. Req"
+Mostaqel.com,تصميم ثري دي لمشروع سكني في الرياض (صور + فيديو),https://mostaql.com/project/1242372-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%AB%D8%B1%D9%8A-%D8%AF%D9%8A-%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%B3%D9%83%D9%86%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%B5%D9%88%D8%B1-%D9%81%D9%8A%D8%AF%D9%8A%D9%88,250.0,500.0,USD,fixed,التصميم الخارجي | تصميم 3D | تصميم فيديو | تصميم هندسي | تصميم الواجهات المعمارية,Unknown,2026-05-21 08:30:20,وصف المشروع:,Unknown
+Mostaqel.com,برنامج حرب التتار,https://mostaql.com/project/1242501-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%AA%D8%AA%D8%A7%D8%B1,100.0,250.0,USD,fixed,تركيب سكربتات | برمجة | برمجة ألعاب الجوال | تطوير الألعاب | تصميم ألعاب,Unknown,2026-05-21 08:28:38,برنامج خاص لعبة حرب التتار,Unknown
+Mostaqel.com,3d custom mask,https://mostaql.com/project/1242498-3d-custom-mask,250.0,500.0,USD,fixed,تصميم 3D | تصميم منتجات | تصميم صور | تصميم جرافيك | التصميم الإبداعي,Unknown,2026-05-21 08:16:58,أبغى قناع 3D مطبوع بتصميم مستقبلي أسود مع تفاصيل بنفسجية مضيئة، مشابه للصورة المرفقة. أبي العيون LED بنفسجي، والقناع قابل للبس مع هود أسود,Unknown
+Mostaqel.com,رفع برنامج على ويب استضافة,https://mostaql.com/project/1242495-%D8%B1%D9%81%D8%B9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%B9%D9%84%D9%89-%D9%88%D9%8A%D8%A8-%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9,25.0,50.0,USD,fixed,برمجة التطبيقات | كتابة التقارير | تطوير قاعدة بيانات | تحليل البيانات | معالجة البيانات | برمجة قواعد البيانات | إدخال بيانات | مايكروسوفت أوفيس | هندسة البرمجيات | تطوير البرمجيات | مايكروسوفت إكسل,Unknown,2026-05-21 08:15:49,عندي برنامج ويب جاهز كود كامل (ملف HTML واحد + قاعدة بيانات SQL)، المطلوب فقط:,Unknown
+Mostaqel.com,تطوير وتحسين العمليات التشغيلية لمصنع ألعاب,https://mostaql.com/project/1242286-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%88%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9-%D9%84%D9%85%D8%B5%D9%86%D8%B9-%D8%A3%D9%84%D8%B9%D8%A7%D8%A8,250.0,500.0,USD,fixed,حل المشكلات | إدارة أعمال | خطة عمل | إدارة المشاريع | تحليل الأعمال,Unknown,2026-05-21 08:15:12,نحن شركة كوخ المرح المتخصصة في بيع وتأجير الألعاب في السعودية، نبحث عن مستقل لديه خبرة في التشغيل والتصنيع للمساعدة في تطوير وتحسين كفاءة العمل داخل المصنع.,Unknown
+Mostaqel.com,تحرير فيديوهات يوتيوب (استكشاف ومغامرات) بجودة 4K,https://mostaql.com/project/1242489-%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8-%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81-%D9%88%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A7%D8%AA-%D8%A8%D8%AC%D9%88%D8%AF%D8%A9-4k,50.0,100.0,USD,fixed,إنتاج الفيديو | مونتاج فيديو | التصميم الإبداعي | الفكرة التصميمية | تعديل الصوت | After Effects | أدوبي بريمير,Unknown,2026-05-21 07:58:54,أبحث عن مونتير مبدع ومتمكن لتحويل لقطات تصوير ميداني (Vlogs) إلى فيديوهات مشوقة واحترافية لقناة يوتيوب. المحتوى يركز على الاستكشاف والمغامرات، وأحتاج لمسات سينمائية تجذب المشاهد.,Unknown
+Mostaqel.com,حملة إعلانية لكافيه,https://mostaql.com/project/1242484-%D8%AD%D9%85%D9%84%D8%A9-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D9%83%D8%A7%D9%81%D9%8A%D9%87,50.0,100.0,USD,fixed,كتابة إعلان | إعلانات جوجل | جوجل أدسنس | إدارة التسويق | التسويق عبر محركات البحث | التسويق عبر مواقع التواصل الاجتماعي | التسويق الإلكتروني | التسويق عبر الإنترنت,Unknown,2026-05-21 07:58:30,حملة إعلانية لكافيه على جوجل ادز وتيك توك,Unknown
+Mostaqel.com,نظام توظيف ومعالجة السير في منصة n8n,https://mostaql.com/project/1242471-%D9%86%D8%B8%D8%A7%D9%85-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D9%88%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1-%D9%81%D9%8A-%D9%85%D9%86%D8%B5%D8%A9-n8n,100.0,250.0,USD,fixed,n8n | مايكروسوفت إكسل | التسويق الإلكتروني | جداول بيانات جوجل | برمجة إضافات جوجل كروم | واجهة برمجة تطبيقات ويندوز | التسويق عبر واتساب,Unknown,2026-05-21 07:57:45,السلام عليكم ورحمة الله وبركاته,Unknown
+Mostaqel.com,خبير محترف في تجربة المستخدم وتحسين المتاجر الإلكترونية,https://mostaql.com/project/1242491-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%81%D9%8A-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D9%88%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AC%D8%B1-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9,100.0,250.0,USD,fixed,تصميم واجهة المستخدم | تصميم واجهة وتجربة المستخدم | تصميم تجربة المستخدم | إدارة المتاجر الإلكترونية | تصميم متجر إلكتروني,Unknown,2026-05-21 07:45:17,نبحث عن خبير محترف في تجربة المستخدم وتحسين المتاجر الإلكترونية (UX/UI & CRO) لإعادة هيكلة متجرنا الإلكتروني وتحسين تجربة العميل بهدف رفع معدل التحويل وزيادة المبيعات.,Unknown
+Mostaqel.com,تطوير وتحسين منصة العضويات والفعاليات – Base44,https://mostaql.com/project/1242490-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%88%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-base44,50.0,100.0,USD,fixed,التصميم الإبداعي | إدخال بيانات | HTML | جافا سكريبت | تطوير البرمجيات | هندسة البرمجيات,Unknown,2026-05-21 07:44:08,نحتاج مطور لديه خبرة في Base44 والتكاملات لتطوير المشروع الحالي وتحسين تجربة المستخدم وربط الإشعارات والخدمات الخاصة بالفعاليات والعضويات، بدون إعادة بناء المشروع من الصفر.,Unknown
+Mostaqel.com,شيف لتطوير وصفات ومنيو لكافي طلبات سيارات,https://mostaql.com/project/1242487-%D8%B4%D9%8A%D9%81-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%88%D8%B5%D9%81%D8%A7%D8%AA-%D9%88%D9%85%D9%86%D9%8A%D9%88-%D9%84%D9%83%D8%A7%D9%81%D9%8A-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA,250.0,500.0,USD,fixed,كتابة وصفات طعام,Unknown,2026-05-21 07:40:51,نبحث عن شيف متخصص في تطوير وصفات ومنيو فطور للعمل بعقد مؤقت / مشروع لتطوير أصناف فطور لكوفي بنظام طلبات سيارات (Drive Thru).,Unknown
+Mostaqel.com,تصميم علبة منتج,https://mostaql.com/project/1242485-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D9%86%D8%AA%D8%AC,25.0,50.0,USD,fixed,تصميم منتجات | تطوير المنتجات | تصميم صور | تصميم جرافيك | التصميم الإبداعي,Unknown,2026-05-21 07:39:29,لدي علبة منتج اريد اضافة تعديلات عليها لك تكون مناسبة للطباعة واضافة نصوص وشعارات ووسائل تواصل اجتماعي,Unknown
+Mostaqel.com,معيد جامعي لتقديم شرح احترافي وتبسيط لمواد تخصصات البرمجة وعلوم الحاسب,https://mostaql.com/project/1242482-%D9%85%D8%B9%D9%8A%D8%AF-%D8%AC%D8%A7%D9%85%D8%B9%D9%8A-%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%B4%D8%B1%D8%AD-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D9%88%D8%AA%D8%A8%D8%B3%D9%8A%D8%B7-%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D8%A8,25.0,50.0,USD,fixed,تطوير البرمجيات | هندسة البرمجيات | اختبار البرمجيات | تعلم البرمجة | البرمجة الخطية | أنظمة مدمجة | برمجة | تصحيح برمجي | برمجة التطبيقات | برمجة مواقع,Unknown,2026-05-21 07:37:42,تقديم شرح وافٍ ومبسط للمواد البرمجية والنظرية الخاصة بطلاب الجامعات.,Unknown
+Mostaqel.com,تصميم منتج لغرض التصنيع,https://mostaql.com/project/1242481-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%86%D8%AA%D8%AC-%D9%84%D8%BA%D8%B1%D8%B6-%D8%A7%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D8%B9,100.0,250.0,USD,fixed,التصميم الإبداعي | الفكرة التصميمية | التصميم التعليمي | تصميم جرافيك | تصميم شعار | تصميم هوية تجارية | تصميم تجربة المستخدم | التصميم الصناعي | تصميم منتجات,Unknown,2026-05-21 07:36:17,مطلوب شخص يصمم منتج معين (شنطة) حجمها صغير بمواصفات معينة لغرض تصنيعها.,Unknown
+Mostaqel.com,مطلوب شخص لإعداد تقرير سنوي,https://mostaql.com/project/1242478-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%B4%D8%AE%D8%B5-%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B3%D9%86%D9%88%D9%8A,50.0,100.0,USD,fixed,أنظمة إدارة المحتوى | كتابة التقارير | الكتابة الإبداعية | التدقيق اللغوي | كتابة المحتوى,Unknown,2026-05-21 07:33:49,مطلوب شخص لإعداد تقرير سنوي لجمعية خيرية وفرز المعلومات وانجازات الجمعية وبرامجها وسردها وترتيبها بطريقة احترافية,Unknown
+Mostaqel.com,مصمم/ة و مسوق/ة لموقع الكتروني على بنترست,https://mostaql.com/project/1242477-%D9%85%D8%B5%D9%85%D9%85%D8%A9-%D9%88-%D9%85%D8%B3%D9%88%D9%82%D8%A9-%D9%84%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D8%A8%D9%86%D8%AA%D8%B1%D8%B3%D8%AA,50.0,100.0,USD,fixed,تصميم جرافيك | اللغة الإنجليزية | اللغة العربية | تصميم إعلان | كتابة المحتوى | التسويق عبر الإنترنت | مونتاج فيديو | تصميم بنرات | إدارة المشاريع,Unknown,2026-05-21 07:32:00,السلام عليكم ورحمة الله وبركاته,Unknown
+Mostaqel.com,متخصص مواقع ووردبريس,https://mostaql.com/project/1242473-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D9%88%D9%88%D8%B1%D8%AF%D8%A8%D8%B1%D9%8A%D8%B3,100.0,250.0,USD,fixed,الفكرة التصميمية | إنشاء موقع إلكتروني | ووردبريس | إنشاء موقع ووردبريس | تطوير البرمجيات,Unknown,2026-05-21 07:28:37,السلام عليكم ورحمة الله وبركاته،,Unknown
+Mostaqel.com,مطلوب متخصص يوتيوب,https://mostaql.com/project/1242470-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8,50.0,100.0,USD,fixed,خطة تسويقية | التسويق عبر الفيس بوك | التسويق عبر محركات البحث | تحسين محركات البحث | بحث الكلمات المفتاحية | تدقيق SEO | تحسين السيو الداخلي | كتابة مقالات متوافقة مع السيو | التسويق عبر اليوتيوب,Unknown,2026-05-21 07:25:35,السلام عليكم,Unknown
+Mostaqel.com,نظام أتمتة واتساب + Excel 365 مع Dashboard وذكاء اصطناعي,https://mostaql.com/project/1242469-%D9%86%D8%B8%D8%A7%D9%85-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-excel-365-%D9%85%D8%B9-dashboard-%D9%88%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A,250.0,500.0,USD,fixed,تعلم الآلة | التعلم العميق | keras | RNN | الانحدار | SVM | Jupyter | الأتمة بالذكاء الاصطناعي | الذكاء الاصطناعي,Unknown,2026-05-21 07:24:55,بحث عن مطوّر لتنفيذ نظام تحكم تشغيلي ميداني، تكون فيه البيانات عندي، والتحديث يتم عبر واتس اب بوت مرتبط بـ API، بدون أي تدخل بشري، مع طبقة ذكاء اصطناعي للتحليل والدعم.,Unknown
+Mostaqel.com,خبير في Software Architecture و SaaS Systems لتقديم استشارة احترافية متقدمة,https://mostaql.com/project/1242468-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A-software-architecture-%D9%88-saas-systems-%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%D9%85%D8%AA%D9%82%D8%AF%D9%85%D8%A9,50.0,100.0,USD,fixed,تطوير البرمجيات | تطوير الويب | هندسة البرمجيات | برمجة مواقع | إدارة المواقع,Unknown,2026-05-21 07:22:35,السلام عليكم ورحمة الله وبركاته،,Unknown
+Mostaqel.com,مطلوب مصمم هويات بصرية محترف لتنفيذ مشاريع بشكل مستمر,https://mostaql.com/project/1242466-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%B5%D9%85%D9%85-%D9%87%D9%88%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A8%D8%B4%D9%83%D9%84-%D9%85%D8%B3%D8%AA%D9%85%D8%B1,250.0,500.0,USD,fixed,فوتوشوب | تصميم جرافيك | التصميم الإبداعي | تصميم شعار | الفكرة التصميمية | تصميم هوية بصرية | تصميم هوية تجارية,Unknown,2026-05-21 07:20:31,وصف المشروع:,Unknown
+Mostaqel.com,تصميم تقرير نتائج خطة استراتيجية,https://mostaql.com/project/1242465-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%AE%D8%B7%D8%A9-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9,100.0,250.0,USD,fixed,تصميم عروض تقديمية | تصميم عروض بوربوينت | باوربوينت | التصميم الإبداعي | تصميم جرافيك,Unknown,2026-05-21 07:19:27,السلام عليكم ورحمة الله وبركاته،,Unknown
+Mostaqel.com,المساعدة باستعادة حساب لينكد شخصي,https://mostaql.com/project/1242461-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A8%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%84%D9%8A%D9%86%D9%83%D8%AF-%D8%B4%D8%AE%D8%B5%D9%8A,25.0,50.0,USD,fixed,الدعم الفني | التسويق عبر لينكد إن | حل المشكلات | إدارة حسابات التواصل الاجتماعي | أمن وحماية المواقع,Unknown,2026-05-21 07:17:59,أبحث عن متخصص محترف في استعادة حسابات لينكدإن للمساعدة في استرجاع حسابي الشخصي الذي تم تقييد الوصول إليه مؤقتًا، ولم تنجح محاولات التحقق حتى الآن.,Unknown
+Mostaqel.com,تصميم منيو إلكتروني,https://mostaql.com/project/1242460-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%86%D9%8A%D9%88-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A,50.0,100.0,USD,fixed,تصميم | جافا سكريبت | تصميم منيو | التصميم الإبداعي | الفكرة التصميمية,Unknown,2026-05-21 07:15:07,السلام عليكم ورحمة الله وبركاتة ...,Unknown
+Mostaqel.com,قراءة وتحليل وتعديل حملة(بحث) إعلانية على قوقل,https://mostaql.com/project/1242456-%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D9%88%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D8%AD%D9%85%D9%84%D8%A9%D8%A8%D8%AD%D8%AB-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D9%82%D9%88%D9%82%D9%84,25.0,50.0,USD,fixed,إدارة التسويق | التسويق عبر الإنترنت | التسويق الإلكتروني | خرائط جوجل | إنشاء حملة إعلانية | حملة إعلانية | إعلانات جوجل,Unknown,2026-05-21 07:13:14,قمت بانشاء حملة إعلانية على قوقل,Unknown
+Mostaqel.com,تحسين ظهور الموقع WordPress باستخدام Yoast SEO,https://mostaql.com/project/1242455-%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%B8%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9-wordpress-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-yoast-seo,500.0,1000.0,USD,fixed,التسويق الإلكتروني | البحث والتطوير | التسويق عبر مواقع التواصل الاجتماعي | الكتابة الإبداعية | كتابة المحتوى | إعادة صياغة المحتوى | التسويق عبر الإنترنت | ووردبريس | تحسين محركات البحث | تدقيق SEO,Unknown,2026-05-21 07:12:47,Build with Protein براند تغذية ورياضة متخصص في إصلاح الأيض وعلاج التكيّف الأيضي، بقيادة مدربة في المملكة العربية السعودية متخصصة في هذا المجال.,Unknown
+Mostaqel.com,مطلوب تطوير منصة ويب بالذكاء الاصطناعي لإدارة مساعدين ذكيين للشركات,https://mostaql.com/project/1242454-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%86%D8%B5%D8%A9-%D9%88%D9%8A%D8%A8-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D9%8A%D9%86-%D8%B0%D9%83%D9%8A%D9%8A%D9%86-%D9%84%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA,500.0,1000.0,USD,fixed,الذكاء الاصطناعي | وكيل ذكاء اصطناعي | تخصيص نماذج الذكاء الاصطناعي | الأتمة بالذكاء الاصطناعي | خدمة العملاء,Unknown,2026-05-21 07:10:10,أرغب في تطوير منصة ويب خاصة تعتمد على الذكاء الاصطناعي لخدمة الشركات، بحيث يمكن إنشاء مساعد ذكي للمحادثة لكل شركة بشكل مستقل اعتمادًا على بياناتها ومعلوماتها.,Unknown
+Mostaqel.com,بناء موقع لشركتي,https://mostaql.com/project/1242453-%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%88%D9%82%D8%B9-%D9%84%D8%B4%D8%B1%D9%83%D8%AA%D9%8A,100.0,250.0,USD,fixed,تصميم موقع إلكتروني | برمجة مواقع | أمن وحماية المواقع | بايثون | PHP | CSS | جافا سكريبت,Unknown,2026-05-21 07:07:26,أريد إنشاء موقع إلكتروني احترافي ومتجاوب مع الهواتف لشركة Symmetry Stones المتخصصة في تجديد الحمامات والمطابخ وتركيب البلاط والأرضيات والدهانات وأعمال الترميم المنزلية.,Unknown
+Mostaqel.com,قراءة أولية لرواية باللغة العربية,https://mostaql.com/project/1242449-%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9,25.0,50.0,USD,fixed,التدقيق اللغوي | تصحيح إملائي | تأليف كتاب | كتابة قصة قصيرة | الكتابة الإبداعية,Unknown,2026-05-21 07:02:04,أبحث عن Beta Reader محترف لقراءة رواية باللغة العربية - بعيون قارئ حقيقي - وإعطاء ملاحظات صادقة,Unknown
+Mostaqel.com,مصمم فيديوهات جيمنج,https://mostaql.com/project/1242448-%D9%85%D8%B5%D9%85%D9%85-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D8%AC%D9%8A%D9%85%D9%86%D8%AC,25.0,50.0,USD,fixed,تصميم موشن جرافيك | إنتاج الفيديو | تصميم فيديو | صناعة فيديو إعلاني | التصميم الإبداعي | تصميم جرافيك | رسوم متحركة | رسوم متحركة 3D,Unknown,2026-05-21 06:59:48,أنا محمد، جديد عاليوتيوب وبدور على مصمم فيديوهات جيمينج🔥 إذا شغلك حلو بنكمل سوا 🎮,Unknown
+Mostaqel.com,نقل أو بناء موقع على منصة تانية,https://mostaql.com/project/1242443-%D9%86%D9%82%D9%84-%D8%A3%D9%88-%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%88%D9%82%D8%B9-%D8%B9%D9%84%D9%89-%D9%85%D9%86%D8%B5%D8%A9-%D8%AA%D8%A7%D9%86%D9%8A%D8%A9,25.0,50.0,USD,fixed,برمجة | تطوير البرمجيات | هندسة البرمجيات | برمجة مواقع | استضافة المواقع,Unknown,2026-05-21 06:55:12,عندي موقع بريبيلت باني عن طريق ai وبدي انقلو لمنصة تانية,Unknown
+Mostaqel.com,تصميم صور منشورات Instagram Carousel بأسلوب سينمائي وقصصي,https://mostaql.com/project/1242440-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%B5%D9%88%D8%B1-%D9%85%D9%86%D8%B4%D9%88%D8%B1%D8%A7%D8%AA-instagram-carousel-%D8%A8%D8%A3%D8%B3%D9%84%D9%88%D8%A8-%D8%B3%D9%8A%D9%86%D9%85%D8%A7%D8%A6%D9%8A-%D9%88%D9%82%D8%B5%D8%B5%D9%8A,25.0,50.0,USD,fixed,فوتوشوب | تصميم جرافيك | التصميم الإبداعي | تصميم شعار | تصميم بوسترات | تصميم إعلان | تصميم عروض بوربوينت | تصميم بروشور,Unknown,2026-05-21 06:53:23,السلام عليكم،,Unknown
+Mostaqel.com,تطوير الهوية البصرية وتحسين واجهة وتجربة استخدام الموقع الإلكتروني,https://mostaql.com/project/1242439-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%88%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A,250.0,500.0,USD,fixed,ووردبريس | تطوير البرمجيات | إدارة المواقع | برمجة مواقع | تطوير الويب | MySQL | بوتستراب | PHP | جافا سكريبت | CSS | HTML,Unknown,2026-05-21 06:52:12,أبحث عن شخص محترف في تصميم وتعديل مواقع WordPress، والموقع الحالي مبني على WordPress + WooCommerce، والاستضافة على Hostinger.,Unknown
+Mostaqel.com,تحليل بيانات - متخصص power bi,https://mostaql.com/project/1242438-%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-power-bi,25.0,50.0,USD,fixed,تحليل البيانات | بايثون | معالجة البيانات | تصميم داش بورد | تخزين البيانات | تصوير البيانات,Unknown,2026-05-21 06:51:37,السلام عليكم،,Unknown
+Mostaqel.com,صناعة فيديو شرح طريقة استخدام برنامج مع تعليق صوتي احترافي,https://mostaql.com/project/1242432-%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B4%D8%B1%D8%AD-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%B9-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%B5%D9%88%D8%AA%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A,25.0,50.0,USD,fixed,التعليق الصوتي | مونتاج فيديو | صوتيات | تصميم فيديو | إنتاج الفيديو,Unknown,2026-05-21 06:49:07,أبحث عن مستقل محترف لإنتاج فيديو شرح لطريقة استخدام برنامج مع تعليق صوتي عربي احترافي.,Unknown
+Mostaqel.com,مطلوب مبرمج محترف لتثبيت أداة Node.js على سيرفر Hostinger وربطها بـ WhatsApp API,https://mostaql.com/project/1242421-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%A8%D8%B1%D9%85%D8%AC-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A3%D8%AF%D8%A7%D8%A9-nodejs-%D8%B9%D9%84%D9%89-%D8%B3%D9%8A%D8%B1%D9%81%D8%B1-hostinger-%D9%88%D8%B1%D8%A8%D8%B7%D9%87%D8%A7-%D8%A8%D9%80-whatsapp-api,25.0,50.0,USD,fixed,node.js | جافا سكريبت | تركيب سكربتات | بناء الروابط | تطوير البرمجيات | استضافة المواقع,Unknown,2026-05-21 06:46:59,السلام عليكم، مطلوب مبرمج خبير ومحترف للقيام بتركيب وتثبيت سكريبت أداة (Node.js) جاهز ومكتمل لدي، وتسطيبه بالكامل على استضافة وسيرفر Hostinger.,Unknown
+Mostaqel.com,نقل أعضاء التلقرام,https://mostaql.com/project/1242420-%D9%86%D9%82%D9%84-%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D9%84%D9%82%D8%B1%D8%A7%D9%85,250.0,500.0,USD,fixed,التسويق عبر مواقع التواصل الاجتماعي | إدارة حسابات التواصل الاجتماعي | استخراج البيانات | تخزين البيانات | التسويق الإلكتروني,Unknown,2026-05-21 06:45:20,نقل أعضاء قروبات التلقرام من القروبات المنافسة للقروب آخر,Unknown
+Mostaqel.com,تطوير سيلز بيدج على شوبيفاي,https://mostaql.com/project/1242416-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%B3%D9%8A%D9%84%D8%B2-%D8%A8%D9%8A%D8%AF%D8%AC-%D8%B9%D9%84%D9%89-%D8%B4%D9%88%D8%A8%D9%8A%D9%81%D8%A7%D9%8A,25.0,50.0,USD,fixed,ووردبريس | تطوير البرمجيات | إدارة المواقع | برمجة مواقع | تطوير الويب | MySQL | بوتستراب | PHP | جافا سكريبت | CSS | HTML,Unknown,2026-05-21 06:41:24,تطوير سيلز بيدج على شوبيفاي لبيع منتج واحد يعني ما فيش صفحات هي صفحه واحده يتباع من عليها المنتج يتنفذ الاوردر و يتربط ب موقع شركة شحن تربو عشان الاوردرات تسمع فيها اوتوماتيك,Unknown
+Mostaqel.com,انشاء موقع إلكتروني تعريفي,https://mostaql.com/project/1242413-%D8%A7%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%88%D9%82%D8%B9-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D9%8A,250.0,500.0,USD,fixed,HTML | CSS | جافا سكريبت | PHP | node.js | Front End | Back End,Unknown,2026-05-21 06:38:26,مرحباً بالجميع،,Unknown
+Mostaqel.com,إدارة وتطوير صفحات التواصل الاجتماعي وزيادة التفاعل وتحميلات تطبيق تعليمي,https://mostaql.com/project/1242411-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%B5%D9%81%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D9%88%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D9%88%D8%AA%D8%AD%D9%85%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A,100.0,250.0,USD,fixed,التسويق الإلكتروني | التسويق عبر الإنترنت | إدارة التسويق | التسويق عبر الإنستقرام | التسويق عبر الفيس بوك | كتابة محتوى سوشيال ميديا | إدارة حسابات التواصل الاجتماعي | التسويق عبر مواقع التواصل الاجتماعي,Unknown,2026-05-21 06:37:31,السلام عليكم,Unknown
+Mostaqel.com,بناء وتطوير منظومة رقمية احترافية,https://mostaql.com/project/1242407-%D8%A8%D9%86%D8%A7%D8%A1-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%B1%D9%82%D9%85%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9,250.0,500.0,USD,fixed,تطوير الويب | برمجة مواقع | ووردبريس | هندسة البرمجيات | برمجة | تحسين السيو الداخلي,Unknown,2026-05-21 06:30:44,أبحث عن مستقل/فريق محترف لتطوير موقعي الشخصي بشكل احترافي وفاخر، بحيث لا يكون مجرد موقع تعريفي، بل منصة رقمية تعكس هوية قانونية واستثمارية تنفيذية عالية المستوى، وتسهم في بناء حضور مهني موثوق واستقطاب الأعمال وصناعة مرجعية فكرية وقانونية على المدى الطويل.,Unknown
+Mostaqel.com,تطبيق لربط الحرفين بالزبائن بالمغرب,https://mostaql.com/project/1242406-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%84%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D8%AD%D8%B1%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%A6%D9%86-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8,250.0,500.0,USD,fixed,التصميم الإبداعي | تطوير التطبيقات | برمجة التطبيقات | برمجة | هندسة البرمجيات,Unknown,2026-05-21 06:27:05,"أبحث عن مطور تطبيقات محترف لإنشاء تطبيق لربط الحِرَف بالزبائن. التطبيق سيدعم جميع أنواع الخدمات، ويشمل ميزات مثل تقييمات العمال، نظام تقويم، وتحديد الموقع الجغرافي. يفضل خبرة في استخدام منصات الـ No-Code مثل Bubble أو FlutterFlow.""",Unknown
+Mostaqel.com,مصمم مقاطع,https://mostaql.com/project/1242114-%D9%85%D8%B5%D9%85%D9%85-%D9%85%D9%82%D8%A7%D8%B7%D8%B9,100.0,250.0,USD,fixed,رسوم متحركة 3D | رسوم متحركة | تصميم جرافيك | التصميم الإبداعي | صناعة فيديو إعلاني | تصميم فيديو | إنتاج الفيديو | تصميم موشن جرافيك,Unknown,2026-05-21 06:22:17,السلام عليكم احتاج مصمم مقاطع,Unknown
+Mostaqel.com,مطلوب مندوبة تطوير أعمال ومبيعات (عن بعد خبرة في السوق السوري),https://mostaql.com/project/1242091-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D9%86%D8%AF%D9%88%D8%A8%D8%A9-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D9%88%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%B9%D9%86-%D8%A8%D8%B9%D8%AF-%D8%AE%D8%A8%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A,100.0,250.0,USD,fixed,التسويق عبر الإنترنت | اللغة الإنجليزية | بحث السوق | إدارة المبيعات | إدارة التسويق | خدمة العملاء عبر الهاتف,Unknown,2026-05-21 06:19:30,نبحث عن مندوبة تطوير أعمال ومبيعات متمكنة للانضمام إلى فريقنا للمساهمة في توسيع قاعدة عملائنا في مجال الخدمات اللوجستية وإدارة المستودعات.,Unknown
+Mostaqel.com,تصميم ملف ورقي 3d,https://mostaql.com/project/1241596-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%84%D9%81-%D9%88%D8%B1%D9%82%D9%8A-3d,50.0,100.0,USD,fixed,تصميم ملصقات المنتجات | تصميم دعوات | تصميم 3D | تصميم ملصقات | الفكرة التصميمية | تصميم شعار | Adobe Illustrator | فوتوشوب | تصميم هوية بصرية | تصميم هوية تجارية | التصميم الإبداعي,Unknown,2026-05-21 06:16:18,تصميم كرت ورقي 3d مماثل للمعروض في الفديو,Unknown
+Mostaqel.com,كتابة تقرير وحدة الدراسات العليا والبحث العلمي,https://mostaql.com/project/1242405-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A,50.0,100.0,USD,fixed,الكتابة على الإنترنت | الكتابة الإبداعية | التدقيق اللغوي | تدقيق حسابات | التدوين | تصحيح إملائي | كتابة المحتوى | كتابة مقالات | تنسيق الكتب,Unknown,2026-05-20 22:02:32,السلام عليكم ورحمة الله وبركاته,Unknown
+Mostaqel.com,انشاء موقع لمطعم متخصص في الاكلات البحرية,https://mostaql.com/project/1225266-%D8%A7%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%88%D9%82%D8%B9-%D9%84%D9%85%D8%B7%D8%B9%D9%85-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9,250.0,500.0,USD,fixed,برمجة | إنشاء موقع إلكتروني | Front End | Back End | تطوير البرمجيات,Unknown,2026-05-20 21:56:03,أبحث عن مطور محترف لتنفيذ موقع إلكتروني احترافي لمطعم، يعرض المنيو والخدمات بشكل جذاب وسهل الاستخدام.,Unknown
+Mostaqel.com,مبرمج تطبيقات,https://mostaql.com/project/1242233-%D9%85%D8%A8%D8%B1%D9%85%D8%AC-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA,500.0,1000.0,USD,fixed,برمجة التطبيقات | تطوير التطبيقات | اختبار تطبيقات الجوال | إنشاء تطبيق | واجهة برمجة التطبيقات | تصميم تطبيقات,Unknown,2026-05-20 21:36:21,"مطلوب مطور لبناء تطبيق وموقع لإدارة ""ردود الشاحنات"" وتوثيقها بالصور حسب نوع النشاط مع نظام تقارير",Unknown
+Mostaqel.com,تطبيقات احصائية في تدريس العلوم,https://mostaql.com/project/1242402-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D8%AF%D8%B1%D9%8A%D8%B3-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85,25.0,50.0,USD,fixed,التحليل الإحصائي | تدريس خصوصي | تدريب عن بعد | النظام الإحصائي SPSS | الإحصاء,Unknown,2026-05-20 21:33:17,اريد مدرسـ/ ـة تعليم تطبيقات احصائية في تدريس العلوم - باحثة دكتوراة واريد توجيهات حول بعض الاستفسارات مثل برنامج spss-,Unknown
+Mostaqel.com,تصميم متجر إلكتروني على منصة زد,https://mostaql.com/project/1242386-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D8%AA%D8%AC%D8%B1-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D9%85%D9%86%D8%B5%D8%A9-%D8%B2%D8%AF,50.0,100.0,USD,fixed,تصميم موقع إلكتروني | برمجة مواقع | CSS | جافا سكريبت | التجارة الإلكترونية | منصة زد | إنشاء متجر إلكتروني | تصميم متجر إلكتروني,Unknown,2026-05-20 20:52:19,تصميم متجر على منصة زد,Unknown
+Mostaqel.com,جمع وتنظيم منيوهات مطاعم محددة,https://mostaql.com/project/1242393-%D8%AC%D9%85%D8%B9-%D9%88%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D9%85%D9%86%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D9%85%D8%B7%D8%A7%D8%B9%D9%85-%D9%85%D8%AD%D8%AF%D8%AF%D8%A9,50.0,100.0,USD,fixed,مايكروسوفت إكسل | البحث على الإنترنت | إدخال بيانات | تخزين البيانات | استخراج البيانات | web scraping,Unknown,2026-05-20 20:51:19,مطلوب شخص لجمع وتنظيم منيوهات مطاعم محددة ١٥ مطعم وتحليل الأسعار,Unknown
+Mostaqel.com,مدير حملات اعلانية,https://mostaql.com/project/1242394-%D9%85%D8%AF%D9%8A%D8%B1-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9,250.0,500.0,USD,fixed,التسويق عبر الإنترنت | التسويق الإلكتروني | التسويق عبر مواقع التواصل الاجتماعي | التسويق عبر محركات البحث | إدارة التسويق | جوجل أدسنس | إعلانات جوجل | إدارة حسابات التواصل الاجتماعي,Unknown,2026-05-20 20:50:03,شخص متفرغ لادارة حملات التسويق عبر منصات التواصل,Unknown
+Mostaqel.com,كتابة محتوى إحترافي سعودي,https://mostaql.com/project/1242392-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D8%A5%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A,50.0,100.0,USD,fixed,كتابة المحتوى | الكتابة الإبداعية | كتابة محتوى سوشيال ميديا | التسويق بالمحتوى | إدارة المحتوى | إعادة صياغة المحتوى,Unknown,2026-05-20 20:49:00,احتاج محترف لكتابة محتوى اعلاني للسوشال ميديا و وضع خطه المحتوى لمتجر الكتروني في السعودية يشترط ان يكون خبرة في كتابه المحتوى وان يكون المحتوى بلهجه السعودية ولغه عربية فحصى,Unknown
+Mostaqel.com,مصمم محترف,https://mostaql.com/project/1242391-%D9%85%D8%B5%D9%85%D9%85-%D9%85%D8%AD%D8%AA%D8%B1%D9%81,50.0,100.0,USD,fixed,تصميم جرافيك | التصميم الإبداعي | تصميم إعلان | Adobe Illustrator | الفكرة التصميمية | فوتوشوب | تصميم بنرات | تصميمات سوشيال ميديا | تصميم بوستات سوشيال ميديا,Unknown,2026-05-20 20:47:53,أحتاج مصمم خبير وشغله نظيف ومريح للعين,Unknown
+Mostaqel.com,مدخل بيانات,https://mostaql.com/project/1242389-%D9%85%D8%AF%D8%AE%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA,50.0,100.0,USD,fixed,إدخال بيانات | تدقيق حسابات | مايكروسوفت إكسل | إدارة المتاجر الإلكترونية | ووكومرس | تطوير قاعدة بيانات | استخراج البيانات | تخزين البيانات,Unknown,2026-05-20 20:33:36,مطلوب شخص يقوم بتجميع بيانات و وضعها في اكسل,Unknown
+Mostaqel.com,مهندس ميكانيك / مصمم صناعي لتصميم مركبة رباعية هجينة (بدالات + كهرباء) للتصنيع.,https://mostaql.com/project/1242388-%D9%85%D9%87%D9%86%D8%AF%D8%B3-%D9%85%D9%8A%D9%83%D8%A7%D9%86%D9%8A%D9%83-%D9%85%D8%B5%D9%85%D9%85-%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D8%B1%D9%83%D8%A8%D8%A9-%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A9-%D9%87%D8%AC%D9%8A%D9%86%D8%A9-%D8%A8%D8%AF%D8%A7%D9%84%D8%A7%D8%AA-%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%84%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D8%B9,100.0,250.0,USD,fixed,الهندسة الميكانيكية | الهندسة | تصميم 3D | تجسيد 3D | تصميم نماذج 3D,Unknown,2026-05-20 20:33:09,السلام عليكم، أبحث عن مهندس ميكانيك أو مصمم صناعي محترف لديه خبرة في تصميم المركبات وخلفية ممتازة في برامج التصميم الهندسي (يفضل SolidWorks أو Autodesk Inventor).,Unknown
+Mostaqel.com,مصمم محترف لتصميم بوستات,https://mostaql.com/project/1242387-%D9%85%D8%B5%D9%85%D9%85-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%A8%D9%88%D8%B3%D8%AA%D8%A7%D8%AA,100.0,250.0,USD,fixed,تصميم جرافيك | فوتوشوب | تصميم إعلان | تصميم شعار | تعديل الصور | Adobe Illustrator | تصميم بوسترات | البحث على الإنترنت | تصميم ملصقات المنتجات | صناعة فيديو إعلاني | تصميم فيديو,Unknown,2026-05-20 20:30:27,احتاج مصمم محترف لتصميم بوستات بصيغه الريلز و البوست لمشروع مغسلة سيارات,Unknown
+Mostaqel.com,حملة إعلانية وتصميم فيديو إعلاني,https://mostaql.com/project/1242385-%D8%AD%D9%85%D9%84%D8%A9-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A,100.0,250.0,USD,fixed,التسويق عبر الإنترنت | التسويق الإلكتروني | التسويق عبر مواقع التواصل الاجتماعي | التسويق عبر محركات البحث | إدارة التسويق | جوجل أدسنس | إعلانات جوجل | تصميم إعلان | إنتاج الفيديو | الترجمة | الكتابة الإبداعية | تحرير المحتوى | هندسة البرمجيات | تصميم داخلي | تدقيق SEO,Unknown,2026-05-20 20:28:10,أريد حملة اعلانية عن طريق الواتس اب علي جميع مواقع التواصل فيس انستجرام سناب,Unknown
+Mostaqel.com,خبير محترف في Objective-C,https://mostaql.com/project/1242380-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%81%D9%8A-objective-c,100.0,250.0,USD,fixed,حل المشكلات | تطوير البرمجيات | برمجة تطبيقات أيفون | برمجة iOS | برمجة | برمجة التطبيقات | تطوير التطبيقات | اختبار تطبيقات الجوال,Unknown,2026-05-20 20:15:52,مرحبا..,Unknown
+Mostaqel.com,تصميم وتنفيذ واجهة إدارة,https://mostaql.com/project/1242379-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9,500.0,1000.0,USD,fixed,تطوير البرمجيات | إدارة المواقع | برمجة | برمجة مواقع | PHP | HTML | CSS | لارافيل | هندسة البرمجيات,Unknown,2026-05-20 19:50:15,أنت مطور محترف متخصص في بناء أنظمة الربط بين منصات متعددة، وأرغب في الاستفادة من خبرتك لتصميم وتنفيذ واجهة إدارة (Admin Panel) متطورة بالإضافة إلى إنشاء API فعّال يربط بين تطبيق تجار الجملة والأسواق المحلية.,Unknown
+Mostaqel.com,إعادة تصميم كتالوج وبروفايل,https://mostaql.com/project/1242378-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%83%D8%AA%D8%A7%D9%84%D9%88%D8%AC-%D9%88%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84,50.0,100.0,USD,fixed,تصميم جرافيك | تصميم بروفايل | فوتوشوب | التصميم الإبداعي | الفكرة التصميمية | تصميم بوسترات,Unknown,2026-05-20 19:47:26,السلام عليكم ورحمة الله تعالى وبركاته.,Unknown
+Mostaqel.com,مصمم لتصميم متجر الكتروني,https://mostaql.com/project/1242375-%D9%85%D8%B5%D9%85%D9%85-%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D8%AA%D8%AC%D8%B1-%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A,25.0,50.0,USD,fixed,فوتوشوب | تصميم جرافيك | التصميم الإبداعي | Adobe Illustrator | تصميم منتجات | تصميم بنرات,Unknown,2026-05-20 19:27:04,لدي متجر الكتروني واحتاج تصميم بانر وعدد ٤ او ٥ من المنتجات تعرض فيها المنتجات وعرض الصفحات بتصميم احترافي ومحتواها,Unknown
+Mostaqel.com,إدارة حملات إعلانية مدفوعة - ميزانية ثابتة | Mavrxwear,https://mostaql.com/project/1242374-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%AF%D9%81%D9%88%D8%B9%D8%A9-%D9%85%D9%8A%D8%B2%D8%A7%D9%86%D9%8A%D8%A9-%D8%AB%D8%A7%D8%A8%D8%AA%D8%A9-mavrxwear,250.0,500.0,USD,fixed,التسويق الإلكتروني | التسويق عبر مواقع التواصل الاجتماعي | التسويق عبر الفيس بوك | حملة إعلانية | إنشاء حملة إعلانية | الإعلان | إعلانات جوجل | إعلانات ممولة,Unknown,2026-05-20 19:25:37,بحث عن متخصص لإدارة حملات إعلانية مدفوعة لبراند Mavrxwear، ملابس أطفال بريميوم تعمل في السوق السعودي.,Unknown
+Mostaqel.com,مطلوب مسوق لجمع اميلات وعمل حمله علي الاميلات التي تم جمعها بشرط الحصول علي تقرير وصول,https://mostaql.com/project/1242371-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%B3%D9%88%D9%82-%D9%84%D8%AC%D9%85%D8%B9-%D8%A7%D9%85%D9%8A%D9%84%D8%A7%D8%AA-%D9%88%D8%B9%D9%85%D9%84-%D8%AD%D9%85%D9%84%D9%87-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D9%85-%D8%AC%D9%85%D8%B9%D9%87%D8%A7-%D8%A8%D8%B4%D8%B1%D8%B7-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%8A-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%88%D8%B5%D9%88%D9%84,50.0,100.0,USD,fixed,البحث على الإنترنت | التسويق عبر البريد الإلكتروني | التسويق عبر محركات البحث | تصميم صفحات الهبوط | تحليل البيانات | البحث والتطوير | إدارة التسويق | إدارة المشاريع | إدارة البريد الإلكتروني | التسويق عبر الإنستقرام | التجارة الإلكترونية | التسويق عبر الفيس بوك | التسويق عبر مواقع التواصل الاجتماعي | التسويق الإلكتروني | التسويق عبر الإنترنت,Unknown,2026-05-20 19:24:01,مطلوب مسوق لجمع اميلات وعمل حمله علي الاميلات التي تم جمعها بشرط الحصول علي تقرير وصول الرسائل فقط وليس بيع,Unknown
+Mostaqel.com,حقائب وعروض تدريبية احترافية,https://mostaql.com/project/1242370-%D8%AD%D9%82%D8%A7%D8%A6%D8%A8-%D9%88%D8%B9%D8%B1%D9%88%D8%B6-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9,100.0,250.0,USD,fixed,تصميم جرافيك | التصميم الإبداعي | فوتوشوب | كتابة المحتوى | تصميم الحقائب التدريبية | استشارات الموارد البشرية | تدريب إدارة الأعمال | البحث والتطوير,Unknown,2026-05-20 19:19:54,ابحث عن عروض تقديمية + مذكرات أنشطة + مذكرة مدرب + مذكرة متدرب ..,Unknown
+Mostaqel.com,تطوير إدارة لقراءة ال QR code لبرنامج محاسبي,https://mostaql.com/project/1242363-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84-qr-code-%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%8A,250.0,500.0,USD,fixed,أودو | تطوير الويب | تطوير قاعدة بيانات | تطوير البرمجيات | هندسة البرمجيات,Unknown,2026-05-20 18:50:13,السلام عليكم و رحمة الله و بركاته,Unknown
+Mostaqel.com,مدير تنفيذي,https://mostaql.com/project/1242361-%D9%85%D8%AF%D9%8A%D8%B1-%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A,500.0,1000.0,USD,fixed,خطة عمل | إدارة أعمال | ريادة الأعمال | تطوير الأعمال | تقييم الأعمال | خطة تسويقية | بحث السوق | كتابة التقارير,Unknown,2026-05-20 18:47:21,نحتاج مدير تنفيذي محترف جداً له خبره سابقه في وكالات التسويق وبذات في السعوديه,Unknown
+Mostaqel.com,مطور أتمتة الفيديو بالذكاء الصناعي وربط وسائل التواصل الاجتماعي,https://mostaql.com/project/1242330-%D9%85%D8%B7%D9%88%D8%B1-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%B1%D8%A8%D8%B7-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A,500.0,1000.0,USD,fixed,تصميم جرافيك | تعديل الصور | إعادة صياغة المحتوى | ووردبريس | التسويق عبر مواقع التواصل الاجتماعي | الذكاء الاصطناعي | الأتمة بالذكاء الاصطناعي | تخصيص نماذج الذكاء الاصطناعي,Unknown,2026-05-20 18:16:33,نبذة عن المشروع:,Unknown
+Mostaqel.com,مطلوب Media Buyer & Social Media Manager,https://mostaql.com/project/1242329-%D9%85%D8%B7%D9%84%D9%88%D8%A8-media-buyer-social-media-manager,500.0,1000.0,USD,fixed,التسويق عبر مواقع التواصل الاجتماعي | إدارة التسويق | التسويق الإلكتروني | التسويق عبر الإنترنت | إنشاء حملة إعلانية | حملة إعلانية,Unknown,2026-05-20 17:50:24,مطلوب Media Buyer & Social Media Manager محترف لإدارة وتسويق براند منتجات غذائية,Unknown
+Mostaqel.com,مونتاج مقطع يوتيوب,https://mostaql.com/project/1242325-%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AC-%D9%85%D9%82%D8%B7%D8%B9-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8,25.0,50.0,USD,fixed,مونتاج فيديو | إنشاء فيديو يوتيوب | تصميم فيديو | إنتاج الفيديو | أدوبي بريمير,Unknown,2026-05-20 17:31:03,السلام عليكم ورحمة الله وبركاته لدينا مقطع يوتيوب ونريد مونتاجه,Unknown
+Mostaqel.com,اطلب دراسة جدوى لمشروع كامل,https://mostaql.com/project/1242323-%D8%A7%D8%B7%D9%84%D8%A8-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AC%D8%AF%D9%88%D9%89-%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%83%D8%A7%D9%85%D9%84,100.0,250.0,USD,fixed,دراسة جدوى | بحث السوق | خطة عمل | تحليل الأعمال | إدارة المشاريع,Unknown,2026-05-20 17:28:19,مطعم اسماك,Unknown
+Mostaqel.com,أخصائي أداء وتسويق رقمي للمتجر الإلكتروني (Media Buyer),https://mostaql.com/project/1242324-%D8%A3%D8%AE%D8%B5%D8%A7%D8%A6%D9%8A-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%88%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D8%B1%D9%82%D9%85%D9%8A-%D9%84%D9%84%D9%85%D8%AA%D8%AC%D8%B1-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-media-buyer,250.0,500.0,USD,fixed,حملة إعلانية | إنشاء حملة إعلانية | التسويق الإلكتروني | إدارة التسويق | التسويق عبر مواقع التواصل الاجتماعي,Unknown,2026-05-20 17:28:07,نبحث عن أخصائي حملات إعلانية محترف لإدارة وتطوير الحملات التسويقية لمتجر إلكتروني متخصص في مجال الإنارة، بهدف زيادة المبيعات وتحقيق أعلى عائد على الإنفاق الإعلاني عبر منصات الإعلان المختلفة.,Unknown
+Mostaqel.com,تصميم واجهة فيلا,https://mostaql.com/project/1242317-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%81%D9%8A%D9%84%D8%A7,50.0,100.0,USD,fixed,تصميم ديكور | تصميم نماذج 3D | تصميم منزل | تصميم 3D | الفكرة التصميمية | الهندسة | أوتوكاد | إظهار معماري | مخططات تنفيذية | مخططات فلل | تصميم هندسي | ريفيت | تصميم الواجهات المعمارية | التصميم الإبداعي,Unknown,2026-05-20 17:18:23,تصميم واجهة فيلا مودرن 3D مع ارسال انواع الخامات ومراعاة توفرها مع ارسال ملفات الاوتوكاد والتصميم واقتراح عدة افكار مختلفة بشرط ان تكون المواد غير مكلفة والالوان متناسقه وقابلة للتنفيذ مع السور والحوش والسطح,Unknown
+Mostaqel.com,تصميم 10 فيديوهات قصيرة بالذكاء الاصطناعي مع تعليق صوتي,https://mostaql.com/project/1242315-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-10-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%85%D8%B9-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%B5%D9%88%D8%AA%D9%8A,50.0,100.0,USD,fixed,تصميم فيديو | إنتاج الفيديو | مونتاج فيديو | التسويق بالفيديو | صناعة فيديو إعلاني | التعليق الصوتي | الذكاء الاصطناعي,Unknown,2026-05-20 16:49:01,السلام عليكم،,Unknown

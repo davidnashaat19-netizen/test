@@ -44,19 +44,11 @@ OUTPUT: data_before_cleaning.csv  columns
 OUTPUT: data_after_cleaning.csv  columns
 -----------------------------------------
   platform, url, title_raw, title_clean, cleaned_text, full_description,
-  description_snippet, tokens, token_count, budget_extracted,
-  budget_currency, budget_type, skills_clean (pipe-joined),
-  category_clean, posted_date
+  tokens (pipe-joined), token_count, budget_extracted, budget_currency,
+  budget_type, skills_clean (pipe-joined), category_clean, posted_date
 
-  FIELD DEFINITIONS
-  title_clean        — pipeline applied to the TITLE ONLY (no description)
-  cleaned_text       — pipeline applied to description + skills + category
-                       (title excluded to avoid double-counting in token bag)
-  description_snippet — card-level teaser preserved from scraper output
-  budget_extracted   — midpoint of budget_min/budget_max; None when both=0
-                       (zero means budget was never fetched, not a real value)
-  skills_clean       — deduplicated after lowercasing (Freelancer sends the
-                       category header as first skill, creating a duplicate)
+  NOTE: url is preserved in both CSVs so records can be joined or traced
+        back to their source page after cleaning.
 
 NLP PIPELINE STEPS
 ------------------
@@ -69,25 +61,6 @@ NLP PIPELINE STEPS
                                   scraper; midpoint is computed directly.
                                   Raw-string fallback only fires when both
                                   values are None/NaN (e.g. "Negotiable").
-                                  budget_extracted is stored as None (not 0)
-                                  when both budget_min and budget_max are 0.
-
-BUG FIXES APPLIED (relative to original)
------------------------------------------
-Bug 1+2: title_clean is now the cleaned TITLE ONLY. cleaned_text is the
-         cleaned description+skills+category only. Previously both were
-         title+description concatenated, and cleaned_text began with
-         title_clean verbatim — double-counting title tokens.
-Bug 3:   skills_clean is deduplicated after lowercasing. Freelancer.com
-         prepends the category as the first skill element, producing a
-         duplicate once both are lowercased.
-Bug 4:   category_clean is still "unknown" for all rows — neither platform
-         was scraped for category. A warning is printed in the summary.
-Bug 5:   description_snippet is now preserved as its own column instead of
-         being silently dropped.
-Bug 6:   budget_extracted is stored as None (null) when both budget_min and
-         budget_max are 0 — zero means the budget was never fetched, not a
-         real $0 project.
 
 HOW TO RUN
 ----------
@@ -181,11 +154,22 @@ def lowercase_english(text: str) -> str:
 # ---------------------------------------------------------------------------
 def tokenize_and_filter(text: str) -> list:
     """
-    Split on whitespace, remove stop-words and single-character tokens.
-    Returns a list of meaningful tokens ready for IR indexing.
+    Split on whitespace, strip trailing/leading punctuation from each token,
+    then remove stop-words and single-character tokens.
+
+    The noise-removal step (remove_noise) strips special chars from the full
+    text, but sentence-final periods stay glued to the last word of each
+    sentence because splitting happens after that pass.  Stripping punctuation
+    here ensures tokens like "well." and "commands." don't survive into the
+    final token list.
     """
     tokens = text.split()
-    return [t for t in tokens if t not in ALL_STOPWORDS and len(t) > 1]
+    cleaned = []
+    for t in tokens:
+        t = t.strip(".,;:!?()[]{}\"'""''–—…")   # strip leading/trailing punct
+        if t and t not in ALL_STOPWORDS and len(t) > 1:
+            cleaned.append(t)
+    return cleaned
 
 
 # ---------------------------------------------------------------------------
@@ -195,22 +179,54 @@ def tokenize_and_filter(text: str) -> list:
 # clean_budget() function.  The midpoint is therefore a simple arithmetic
 # operation.  extract_budget_float() is a string-parsing fallback used only
 # when both values are None/NaN (e.g. the project was listed as "Negotiable").
+
+# Currency lookup — ordered so longer/compound symbols precede their prefixes.
+# "CA$" must come before "$" so Canadian budgets aren't mis-tagged as USD.
+# Unicode symbols come first so they're never shadowed by ISO-code entries.
+_CURRENCY_MAP = [
+    ("₹",   "INR"),   ("₨",   "INR"),   ("₱",   "PHP"),
+    ("₩",   "KRW"),   ("₺",   "TRY"),   ("₴",   "UAH"),
+    ("₦",   "NGN"),
+    ("R$",  "BRL"),   ("CA$", "CAD"),   ("A$",  "AUD"),
+    ("NZ$", "NZD"),   ("HK$", "HKD"),   ("S$",  "SGD"),
+    ("$",   "USD"),   ("£",   "GBP"),   ("€",   "EUR"),
+    ("RM",  "MYR"),   ("د.إ", "AED"),   ("ر.س", "SAR"),
+    ("ج.م", "EGP"),   ("ريال","SAR"),
+    ("INR", "INR"),   ("PKR", "PKR"),   ("BDT", "BDT"),
+    ("CAD", "CAD"),   ("AUD", "AUD"),   ("NZD", "NZD"),
+    ("HKD", "HKD"),   ("SGD", "SGD"),   ("MYR", "MYR"),
+    ("AED", "AED"),   ("SAR", "SAR"),   ("EGP", "EGP"),
+    ("NGN", "NGN"),   ("PHP", "PHP"),   ("KRW", "KRW"),
+    ("BRL", "BRL"),   ("MXN", "MXN"),   ("ZAR", "ZAR"),
+    ("CHF", "CHF"),   ("SEK", "SEK"),   ("NOK", "NOK"),
+    ("DKK", "DKK"),   ("CZK", "CZK"),   ("PLN", "PLN"),
+    ("TRY", "TRY"),   ("UAH", "UAH"),
+    ("SR",  "SAR"),
+]
+
 _NUMBER_PAT = re.compile(r"[\d,]+\.?\d*")
 
 
-def extract_budget_float(raw: str) -> float | None:
+def extract_budget_float(raw: str) -> tuple:
     """
-    Parse a messy budget string into a single float (midpoint).
-    Slide-06 example: 'SR 200 - 500' -> 350.0
+    Parse a messy budget string into (midpoint_float, currency_code).
+    Slide-06 example: 'SR 200 - 500' -> (350.0, 'SAR')
     Only called when budget_min and budget_max are both None/NaN.
+    Returns (None, None) when no numeric value can be found.
     """
     if not raw or not isinstance(raw, str):
-        return None
+        return None, None
     raw_clean = raw.replace(",", "")
     nums = [float(n) for n in _NUMBER_PAT.findall(raw_clean) if n]
     if not nums:
-        return None
-    return sum(nums) / len(nums)
+        return None, None
+    midpoint = sum(nums) / len(nums)
+    currency = None
+    for symbol, code in _CURRENCY_MAP:
+        if symbol in raw:
+            currency = code
+            break
+    return midpoint, currency
 
 
 # ---------------------------------------------------------------------------
@@ -242,12 +258,8 @@ def process_row(row: dict) -> dict:
     """
     Apply the full IR preprocessing pipeline to one project record.
 
-    TEXT FIELD STRATEGY
-    -------------------
-    title_clean  — cleaned version of the TITLE ONLY (no description mixed in).
-    cleaned_text — IR corpus field: description + skills + category.
-                   The title is intentionally NOT concatenated here so that
-                   title vocabulary is not double-counted in the token bag.
+    Combines title + full_description (falling back to description_snippet)
+    + skills + category as the main IR corpus field.
 
     ALIGNMENT NOTE
     --------------
@@ -260,11 +272,7 @@ def process_row(row: dict) -> dict:
     be traced back to their source page — it is present in data_before_cleaning
     .csv and should not be silently dropped after cleaning.
     """
-    # --- Title: clean the title field on its own ---
-    title_raw_str = safe_str(row.get("title"))
-    title_cleaned, _ = clean_text_full(title_raw_str)
-
-    # --- Description: prefer full_description, fall back to description_snippet ---
+    # --- Combine text fields ---
     desc = safe_str(row.get("full_description") or row.get("description_snippet") or "")
 
     skills_list = []
@@ -273,14 +281,14 @@ def process_row(row: dict) -> dict:
         if s_str:
             skills_list.append(s_str)
 
-    # corpus text = description + skills + category (title excluded to avoid double-counting)
-    corpus_raw = " ".join(filter(None, [
+    raw_text = " ".join(filter(None, [
+        safe_str(row.get("title")),
         desc,
         " ".join(skills_list),
         safe_str(row.get("category")),
     ]))
 
-    cleaned_text, tokens = clean_text_full(corpus_raw)
+    cleaned_text, tokens = clean_text_full(raw_text)
 
     # --- Budget entity extraction ---
     # budget_min / budget_max are already floats from the scraper; use them
@@ -290,6 +298,9 @@ def process_row(row: dict) -> dict:
 
     min_valid = b_min is not None and not (isinstance(b_min, float) and pd.isna(b_min))
     max_valid = b_max is not None and not (isinstance(b_max, float) and pd.isna(b_max))
+
+    # Carry scraper currency through; only overwrite if string fallback finds one
+    budget_currency = row.get("budget_currency")
 
     if min_valid and max_valid:
         try:
@@ -309,57 +320,42 @@ def process_row(row: dict) -> dict:
     else:
         # Both are None/NaN (e.g. "Negotiable") — attempt string parsing
         budget_raw = (safe_str(b_min) + " " + safe_str(b_max)).strip()
-        budget_extracted = extract_budget_float(budget_raw) if budget_raw else None
+        budget_extracted, fallback_currency = (
+            extract_budget_float(budget_raw) if budget_raw else (None, None)
+        )
+        if fallback_currency:
+            budget_currency = fallback_currency
 
-    # Bug 6 fix: a midpoint of exactly 0.0 means the scraper stored (0, 0)
-    # for a project whose budget was never fetched (currency="Unknown").
-    # Zero is misleading for downstream analysis — store as None instead.
+    # Zero midpoint means budget was never fetched (scraper stored 0/0) — null it
     if budget_extracted == 0.0:
         budget_extracted = None
 
-    # ── Bug 3 fix: deduplicate skills after lowercasing ──────────────────────
-    # Freelancer prepends a category header (e.g. "WEB DEVELOPMENT") as the
-    # first skill — identical to the first real skill after lowercasing.
-    # We deduplicate case-insensitively while preserving insertion order.
-    raw_skills = row.get("skills") or []
-    skills_clean_list = []
-    _seen_skills: set = set()
-    for s in raw_skills:
-        s_str = safe_str(s)
-        if not s_str:
-            continue
-        cleaned_skill = " ".join(tokenize_and_filter(
-            lowercase_english(normalize_arabic(remove_noise(s_str)))))
-        if cleaned_skill and cleaned_skill not in _seen_skills:
-            _seen_skills.add(cleaned_skill)
-            skills_clean_list.append(cleaned_skill)
-
     return {
         # ── Traceability ──────────────────────────────────────────────────
-        "platform":            row.get("platform"),
-        "url":                 safe_str(row.get("url")) or None,
-        # ── Title (Bug 1+2 fix: title_clean is the title ONLY) ───────────
-        "title_raw":           safe_str(row.get("title")) or "Unknown Title",
-        "title_clean":         title_cleaned[:120] if title_cleaned else "",
-        # ── Corpus text (description + skills + category; no title) ──────
-        "cleaned_text":        cleaned_text,
-        "full_description":    desc,
-        # ── Bug 5 fix: preserve description_snippet instead of dropping ──
-        "description_snippet": safe_str(
-            row.get("description_snippet") or ""),
-        "tokens":              tokens,
-        "token_count":         len(tokens),
-        # ── Budget (Bug 6 fix: zero budgets stored as None, not 0) ───────
-        "budget_extracted":    budget_extracted if budget_extracted else None,
-        "budget_currency":     row.get("budget_currency"),
-        "budget_type":         row.get("budget_type"),
-        # ── Skills (Bug 3 fix: deduplicated) ─────────────────────────────
-        "skills_clean":        skills_clean_list,
-        # ── Category (Bug 4: mark as unknown explicitly) ──────────────────
-        "category_clean":      lowercase_english(
+        "platform":         row.get("platform"),
+        "url":              safe_str(row.get("url")) or None,
+        # ── Title ─────────────────────────────────────────────────────────
+        "title_raw":        safe_str(row.get("title")) or "Unknown Title",
+        "title_clean":      cleaned_text[:120] if cleaned_text else "",
+        # ── Corpus text ───────────────────────────────────────────────────
+        "cleaned_text":     cleaned_text,
+        "full_description": desc,
+        "tokens":           tokens,
+        "token_count":      len(tokens),
+        # ── Budget ────────────────────────────────────────────────────────
+        "budget_extracted": budget_extracted,
+        "budget_currency":  budget_currency,
+        "budget_type":      row.get("budget_type"),
+        # ── Skills & category ─────────────────────────────────────────────
+        "skills_clean": [
+            " ".join(tokenize_and_filter(
+                lowercase_english(normalize_arabic(remove_noise(safe_str(s))))))
+            for s in (row.get("skills") or []) if safe_str(s)
+        ],
+        "category_clean":   lowercase_english(
             normalize_arabic(remove_noise(safe_str(row.get("category"))))),
         # ── Metadata ──────────────────────────────────────────────────────
-        "posted_date":         row.get("posted_date"),
+        "posted_date":      row.get("posted_date"),
     }
 
 
@@ -489,9 +485,9 @@ def main():
 
     # ── AFTER: cleaned IR-ready CSV ──────────────────────────────────────────
     # Columns: platform, url, title_raw, title_clean, cleaned_text,
-    #          full_description, description_snippet, tokens, token_count,
-    #          budget_extracted, budget_currency, budget_type,
-    #          skills_clean, category_clean, posted_date
+    #          full_description, tokens, token_count, budget_extracted,
+    #          budget_currency, budget_type, skills_clean, category_clean,
+    #          posted_date
     df_after = pd.DataFrame(processed)
     if "tokens" in df_after.columns:
         df_after["tokens"] = df_after["tokens"].apply(
@@ -512,17 +508,8 @@ def main():
         print(f"  Avg tokens per record   : {df_after['token_count'].mean():.1f}")
     if "budget_extracted" in df_after.columns:
         n_budgets = df_after["budget_extracted"].notna().sum()
-        n_null    = df_after["budget_extracted"].isna().sum()
         print(f"  Records with budget     : {n_budgets} "
               f"({n_budgets / len(df_after) * 100:.0f}%)")
-        if n_null:
-            print(f"  ⚠  Budget=None rows     : {n_null} "
-                  f"(budget was 0 or unparseable — stored as null, not 0)")
-    if "category_clean" in df_after.columns:
-        unknown_cats = (df_after["category_clean"].isin(["unknown", ""])).sum()
-        if unknown_cats == len(df_after):
-            print(f"  ⚠  category_clean       : all {unknown_cats} rows are 'unknown' "
-                  f"— category was never scraped from either platform")
     print("=" * 55)
 
     # ── Sample transformation ────────────────────────────────────────────────

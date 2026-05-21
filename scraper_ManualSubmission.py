@@ -288,6 +288,54 @@ def extract_arabic_budget(text: Optional[str]) -> Optional[str]:
 # Budget Parser
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Currency lookup table — ordered so longer / more-specific symbols are
+# checked BEFORE their shorter prefixes:
+#   "CA$" must precede "$" so Canadian dollars are not mis-tagged as USD.
+#   "R$"  must precede bare "R" (ZAR) for the same reason.
+#   Unicode symbols (₹ ₱ ₩ …) come first so they are never shadowed by an
+#   ISO-code match lower in the list.
+# ---------------------------------------------------------------------------
+_CURRENCY_MAP = [
+    # ── Unicode currency symbols ──────────────────────────────────────────
+    ("₹",   "INR"),   # Indian Rupee
+    ("₨",   "INR"),   # Rupee sign variant
+    ("₱",   "PHP"),   # Philippine Peso
+    ("₩",   "KRW"),   # Korean Won
+    ("₺",   "TRY"),   # Turkish Lira
+    ("₴",   "UAH"),   # Ukrainian Hryvnia
+    ("₦",   "NGN"),   # Nigerian Naira
+    # ── Compound $ symbols (must precede bare "$") ────────────────────────
+    ("R$",  "BRL"),   # Brazilian Real
+    ("CA$", "CAD"),   # Canadian Dollar
+    ("A$",  "AUD"),   # Australian Dollar
+    ("NZ$", "NZD"),   # New Zealand Dollar
+    ("HK$", "HKD"),   # Hong Kong Dollar
+    ("S$",  "SGD"),   # Singapore Dollar
+    # ── Single-char / short symbols ───────────────────────────────────────
+    ("$",   "USD"),   # US Dollar (after all $-prefixed variants)
+    ("£",   "GBP"),   # British Pound
+    ("€",   "EUR"),   # Euro
+    ("RM",  "MYR"),   # Malaysian Ringgit
+    ("د.إ", "AED"),   # UAE Dirham (Arabic)
+    ("ر.س", "SAR"),   # Saudi Riyal (Arabic)
+    ("ج.م", "EGP"),   # Egyptian Pound (Arabic)
+    ("ريال","SAR"),   # Saudi Riyal (Arabic word)
+    # ── ISO 4217 three-letter codes ───────────────────────────────────────
+    ("INR", "INR"),   ("PKR", "PKR"),   ("BDT", "BDT"),
+    ("CAD", "CAD"),   ("AUD", "AUD"),   ("NZD", "NZD"),
+    ("HKD", "HKD"),   ("SGD", "SGD"),   ("MYR", "MYR"),
+    ("AED", "AED"),   ("SAR", "SAR"),   ("EGP", "EGP"),
+    ("NGN", "NGN"),   ("PHP", "PHP"),   ("KRW", "KRW"),
+    ("BRL", "BRL"),   ("MXN", "MXN"),   ("ZAR", "ZAR"),
+    ("CHF", "CHF"),   ("SEK", "SEK"),   ("NOK", "NOK"),
+    ("DKK", "DKK"),   ("CZK", "CZK"),   ("PLN", "PLN"),
+    ("TRY", "TRY"),   ("UAH", "UAH"),
+    # ── Local shorthand ───────────────────────────────────────────────────
+    ("SR",  "SAR"),   # Saudi Riyal shorthand
+]
+
+
 def clean_budget(raw: Optional[str]):
     if not raw:
         return None, None, None, "unknown"
@@ -295,17 +343,12 @@ def clean_budget(raw: Optional[str]):
     if not raw:
         return None, None, None, "unknown"
     raw = raw.strip()
-    currency_map = {
-        "$": "USD", "£": "GBP", "€": "EUR",
-        "SAR": "SAR", "SR": "SAR", "ر.س": "SAR",
-        "EGP": "EGP", "ج.م": "EGP",
-    }
     currency = None
-    for symbol, code in currency_map.items():
+    for symbol, code in _CURRENCY_MAP:
         if symbol in raw:
             currency = code
             break
-    budget_type = "hourly" if "/hr" in raw.lower() or "hour" in raw.lower() else "fixed"
+    budget_type = "hourly" if re.search(r"/hr|/hour|per hour", raw, re.I) else "fixed"
     numbers = re.findall(r"[\d,]+\.?\d*", raw.replace(",", ""))
     nums = [float(n) for n in numbers if n]
     if len(nums) == 0:
@@ -800,7 +843,7 @@ def main():
     log.info("  Note        : polite_sleep(2,5) between EVERY project visit")
     log.info("=" * 60)
 
-    max_pages = 3
+    max_pages = 5
     if "--test" in sys.argv:
         max_pages = 1
         log.info("🧪 Running in TEST mode: limiting crawl to 1 page per platform.")

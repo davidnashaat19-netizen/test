@@ -843,7 +843,7 @@ def main():
     log.info("  Note        : polite_sleep(2,5) between EVERY project visit")
     log.info("=" * 60)
 
-    max_pages = 5
+    max_pages = 3
     if "--test" in sys.argv:
         max_pages = 1
         log.info("🧪 Running in TEST mode: limiting crawl to 1 page per platform.")

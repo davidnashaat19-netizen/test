@@ -1,0 +1,424 @@
+# =============================================================================
+#  .github/workflows/scraper_pipeline_v2.yml
+#  Project : Freelance Market Monitor (Sha8lny Welnaby)
+#  Course  : CS313x Information Retrieval
+# =============================================================================
+#
+#  WHAT THIS WORKFLOW DOES
+#  -----------------------
+#  1. Installs Python 3.10 + all dependencies (Selenium + Chrome for scraper,
+#     pandas + nltk for preprocessor).
+#  2. Runs the scraper  → produces freelance_data.json
+#  3. Runs the IR preprocessor → produces data_before_cleaning.csv
+#                                           data_after_cleaning.csv
+#  4. Verifies BOTH CSV files were actually written (non-empty, ≥1 data row).
+#  5. Commits & pushes all three data files back to the repo automatically.
+#  6. Writes a Markdown job summary visible on the Actions run page.
+#
+#  ALIGNMENT WITH preprocess.py
+#  ----------------------------
+#  • Called as:  python -u preprocess.py --input <json> --output-dir <dir>
+#    (matches argparse defaults defined in preprocess.py)
+#  • Expected outputs (hardcoded in preprocess.py main()):
+#      output_dir / "data_before_cleaning.csv"
+#      output_dir / "data_after_cleaning.csv"
+#  • Required packages: pandas, nltk (stopwords + punkt + punkt_tab corpora)
+#  • Encoding: utf-8-sig (BOM) — written by preprocess.py's to_csv calls
+#  • data_before_cleaning.csv : 12 columns
+#  • data_after_cleaning.csv  : 15 columns (description_snippet restored,
+#      title_clean now title-only, cleaned_text now corpus-only,
+#      budget_extracted=None for rows where budget was never fetched)
+#  • CSV column count verification uses Python, not shell tr, because
+#    token/skills columns contain commas inside quoted fields.
+#
+#  CHROME / SELENIUM NOTES
+#  -----------------------
+#  The scraper uses Selenium + headless Chrome. This workflow installs
+#  Google Chrome directly from Google's .deb package — the same approach
+#  used in the Colab notebook — because GitHub's ubuntu-latest image no
+#  longer ships chromium via apt (it moved to snap, which is broken in
+#  non-interactive runners).  ChromeDriver is managed automatically by
+#  Selenium 4.6+ SeleniumManager; no manual PATH configuration is needed.
+#
+#  ACTION VERSIONS (pinned to latest stable as of 2025)
+#  -----------------------------------------------------
+#  actions/checkout                    @v4
+#  actions/setup-python                @v5
+#  stefanzweifel/git-auto-commit-action @v5
+#
+# =============================================================================
+
+name: Scraper & IR Preprocessing Pipeline v2
+
+# ---------------------------------------------------------------------------
+# TRIGGERS
+# ---------------------------------------------------------------------------
+on:
+  schedule:
+    - cron: "0 0 */3 * *"        # every 3 days at midnight UTC
+
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why are you running this manually? (optional)"
+        required: false
+        default: "Manual run"
+
+# ---------------------------------------------------------------------------
+# PERMISSIONS  — needed so the auto-commit step can push back to the repo
+# ---------------------------------------------------------------------------
+permissions:
+  contents: write
+
+# ---------------------------------------------------------------------------
+# WORKFLOW-WIDE ENVIRONMENT
+# ---------------------------------------------------------------------------
+env:
+  # Opt into Node.js 24 for ALL actions in this workflow.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+  # Unbuffered Python output — every print() and traceback line appears
+  # in the Actions log immediately, not after the step finishes.
+  PYTHONUNBUFFERED: "1"
+
+  # Convenience alias for the workspace path used in every step.
+  WS: ${{ github.workspace }}
+
+# ---------------------------------------------------------------------------
+# JOBS
+# ---------------------------------------------------------------------------
+jobs:
+
+  scrape-and-preprocess:
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
+    steps:
+
+      # ── Step 1: Checkout ─────────────────────────────────────────────────
+      - name: "📥 Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── Step 2: Set up Python 3.10 ───────────────────────────────────────
+      # NOTE: cache: "pip" is intentionally omitted — GitHub's cache service
+      # returns HTTP 400 intermittently, which fails the workflow.
+      # The ~15-second penalty is worth the reliability.
+      - name: "🐍 Set up Python 3.10"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      # ── Step 3: Install Google Chrome (Selenium backend) ─────────────────
+      # Installs the stable Chrome .deb directly from Google — same technique
+      # used in the Colab notebook.  The snap-based chromium bundled with
+      # ubuntu-latest is broken in non-interactive (headless) runners.
+      - name: "🌐 Install Google Chrome"
+        run: |
+          set -euo pipefail
+          echo "▶ Downloading Google Chrome stable .deb …"
+          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y -qq ./google-chrome-stable_current_amd64.deb
+          echo ""
+          echo "✅ Chrome version:"
+          google-chrome --version
+
+      # ── Step 4: Install Python dependencies ──────────────────────────────
+      # Scraper  needs: requests, beautifulsoup4, lxml, selenium
+      # Preprocessor needs: pandas, nltk
+      # unicodedata2 is a fast drop-in for the stdlib unicodedata used in
+      # the scraper's Arabic normalization helpers.
+      - name: "📦 Install Python dependencies"
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+
+          pip install \
+            requests \
+            beautifulsoup4 \
+            lxml \
+            pandas \
+            selenium \
+            nltk \
+            unicodedata2
+
+          echo ""
+          echo "✅ Installed package versions:"
+          pip show requests beautifulsoup4 lxml pandas selenium nltk \
+            | grep -E "^(Name|Version):"
+
+      # ── Step 5: Download NLTK corpora ────────────────────────────────────
+      # preprocess.py calls nltk.download('stopwords', quiet=True) at import
+      # time, but pre-downloading here avoids any mid-run network delay and
+      # surfaces download failures as a dedicated step rather than a cryptic
+      # preprocess crash.
+      # Corpora required by preprocess.py: stopwords
+      # Corpora required by scraper:       stopwords, punkt, punkt_tab
+      - name: "📚 Download NLTK corpora"
+        run: |
+          set -euo pipefail
+          python -c "
+          import nltk
+          for pkg in ('stopwords', 'punkt', 'punkt_tab'):
+              nltk.download(pkg, quiet=False)
+          print('✅ NLTK corpora ready')
+          "
+
+      # ── Step 6: Debug — verify workspace layout ───────────────────────────
+      # Never fails the build (|| true) — purely diagnostic.
+      # Check this step's log if a later step cannot find a script.
+      - name: "🔍 Debug — workspace layout"
+        run: |
+          echo "════════════════════════════════════════════"
+          echo "  Runner workspace : $(pwd)"
+          echo "════════════════════════════════════════════"
+          echo ""
+          echo "▶ Python scripts (.py) in root:"
+          ls -1 *.py 2>/dev/null || echo "  ⚠️  No .py files found in root!"
+          echo ""
+          echo "▶ Full directory listing:"
+          ls -la
+          echo ""
+          echo "▶ Python version  :"
+          python --version
+          echo "▶ Chrome version  :"
+          google-chrome --version || true
+
+      # ── Step 7: Run the scraper ───────────────────────────────────────────
+      - name: "🕷️  Run scraper (Deep Crawl)"
+        run: |
+          set -euo pipefail
+          echo "▶ Starting scraper — $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo ""
+
+          python -u scraper_ManualSubmission.py
+
+          echo ""
+          echo "▶ Workspace after scraper run:"
+          ls -la
+          echo ""
+
+          # ── Locate freelance_data.json ───────────────────────────────────
+          # Handle cases where the scraper writes the file to a subdirectory
+          # instead of the workspace root.
+          JSON_PATH=$(find "$WS" -maxdepth 2 -name "freelance_data.json" | head -1)
+
+          if [ -z "$JSON_PATH" ]; then
+            echo ""
+            echo "❌ ERROR: freelance_data.json was not found anywhere under $WS"
+            echo "   Possible causes:"
+            echo "   • Script name mismatch   — check Step 6 log for actual .py filenames"
+            echo "   • Both target sites blocked the GitHub Actions runner IP"
+            echo "   • Chrome/Selenium crash  — read the traceback printed above"
+            exit 1
+          fi
+
+          echo "✅ Found   : $JSON_PATH"
+          echo "   Size    : $(wc -c < "$JSON_PATH") bytes"
+          echo "   Preview :"
+          head -3 "$JSON_PATH"
+          echo ""
+
+          # Copy to workspace root if the scraper wrote it elsewhere
+          if [ "$JSON_PATH" != "$WS/freelance_data.json" ]; then
+            echo "⚠️  JSON was not in workspace root — copying it now …"
+            cp "$JSON_PATH" "$WS/freelance_data.json"
+          fi
+
+          # ── Verify the projects array is non-empty ───────────────────────
+          # Uses the same key name ("projects") that preprocess.py reads.
+          PROJECT_COUNT=$(python -c "
+          import json, sys
+          with open('$WS/freelance_data.json') as f:
+              d = json.load(f)
+          count = len(d.get('projects', []))
+          print(count)
+          sys.exit(0 if count > 0 else 1)
+          " 2>&1) || {
+            echo ""
+            echo "❌ ERROR: freelance_data.json exists but contains 0 projects."
+            echo "   The scraper ran but collected no data (sites may have changed HTML)."
+            exit 1
+          }
+          echo "✅ JSON contains $PROJECT_COUNT project records — proceeding."
+
+      # ── Step 8: Run the IR preprocessing pipeline ────────────────────────
+      # Invocation matches preprocess.py's argparse definition exactly:
+      #   --input       Path  (default: "freelance_data.json")
+      #   --output-dir  Path  (default: ".")
+      # preprocess.py calls sys.exit(1) on missing JSON or empty projects;
+      # set -euo pipefail will catch that non-zero exit and fail this step.
+      - name: "🔬 Run IR preprocessing pipeline"
+        run: |
+          set -euo pipefail
+          echo "▶ Starting preprocessor — $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo ""
+          echo "▶ Input      : $WS/freelance_data.json"
+          echo "▶ Output dir : $WS"
+          echo "▶ Expected   : data_before_cleaning.csv  /  data_after_cleaning.csv"
+          echo ""
+
+          python -u preprocess.py \
+            --input      "$WS/freelance_data.json" \
+            --output-dir "$WS"
+
+          echo ""
+          echo "▶ CSV files in workspace after preprocessing:"
+          ls -la "$WS"/*.csv 2>/dev/null || echo "  ⚠️  No CSV files produced!"
+
+      # ── Step 9: Verify BOTH CSV files exist and contain data ─────────────
+      # Dedicated gate — fails the workflow with a clear diagnostic message
+      # if either file is missing or contains only a header row.
+      #
+      # Column-count check uses Python (not shell tr) because the tokens and
+      # skills_clean columns written by preprocess.py contain pipe-separated
+      # values inside quoted CSV fields — naive tr ',' '\n' over-counts.
+      - name: "✅ Verify CSV outputs — data_before_cleaning & data_after_cleaning"
+        run: |
+          set -euo pipefail
+          echo "════════════════════════════════════════════"
+          echo "  CSV Output Verification"
+          echo "════════════════════════════════════════════"
+          echo ""
+
+          MISSING=0
+          EMPTY=0
+
+          for f in data_before_cleaning.csv data_after_cleaning.csv; do
+            FULL="$WS/$f"
+            echo "── Checking: $f ──────────────────────────"
+
+            # 1. File must exist
+            if [ ! -f "$FULL" ]; then
+              echo "  ❌ MISSING — file was not produced by the preprocessor"
+              MISSING=1
+              continue
+            fi
+
+            FILE_SIZE=$(wc -c < "$FULL")
+            LINE_COUNT=$(wc -l < "$FULL")
+            echo "  📄 Size        : ${FILE_SIZE} bytes"
+            echo "  📄 Total lines : ${LINE_COUNT}  (header + data rows)"
+
+            # 2. File must have at least 2 lines (header + 1 data row)
+            if [ "$LINE_COUNT" -lt 2 ]; then
+              echo "  ❌ EMPTY — file exists but contains no data rows (header-only or blank)"
+              EMPTY=1
+              continue
+            fi
+
+            # 3. Use Python to count columns correctly (handles quoted commas
+            #    in tokens / skills_clean fields written by preprocess.py)
+            python -c "
+          import csv, sys
+          path = '$FULL'
+          with open(path, encoding='utf-8-sig') as fh:
+              reader = csv.reader(fh)
+              header = next(reader)
+              try:
+                  row1 = next(reader)
+              except StopIteration:
+                  print('  ❌ EMPTY — csv module found no data rows after header')
+                  sys.exit(1)
+              data_rows = sum(1 for _ in reader) + 1   # row1 already consumed; must be inside with
+          print(f'  📋 Header cols : {len(header)}  →  {header[:6]} ...')
+          print(f'  📋 Row-1  cols : {len(row1)}')
+          print(f'  📋 Data rows   : {data_rows}')
+          if len(header) != len(row1):
+              print(f'  ⚠️  Column count mismatch: header={len(header)}, row1={len(row1)}')
+          "
+
+            DATA_ROWS=$((LINE_COUNT - 1))
+            echo "  ✅ PASSED — ${DATA_ROWS} data row(s) confirmed"
+            echo ""
+          done
+
+          # ── Final gate ───────────────────────────────────────────────────
+          if [ "$MISSING" -eq 1 ] || [ "$EMPTY" -eq 1 ]; then
+            echo ""
+            echo "════════════════════════════════════════════"
+            echo "  ❌ CSV VERIFICATION FAILED"
+            echo "════════════════════════════════════════════"
+            echo ""
+            [ "$MISSING" -eq 1 ] && echo "  • One or more CSV files were not produced."
+            [ "$EMPTY"   -eq 1 ] && echo "  • One or more CSV files are empty (header-only)."
+            echo ""
+            echo "  Action items:"
+            echo "  1. Read the preprocessor output in Step 8 for any Python errors."
+            echo "  2. Confirm preprocess.py writes to --output-dir, not a hardcoded path."
+            echo "  3. Confirm the JSON input had project records (see Step 7 count)."
+            exit 1
+          fi
+
+          echo "════════════════════════════════════════════"
+          echo "  ✅ BOTH CSV FILES VERIFIED SUCCESSFULLY"
+          echo "════════════════════════════════════════════"
+
+      # ── Step 10: Commit & push all data files ─────────────────────────────
+      # Idempotent — nothing is committed if the files are unchanged.
+      - name: "💾 Commit and push data files"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: >-
+            freelance_data.json
+            data_before_cleaning.csv
+            data_after_cleaning.csv
+
+          commit_message: |
+            chore(data): auto-update scraped & preprocessed data [${{ github.run_id }}]
+
+            Triggered by : ${{ github.event_name }}
+            Workflow run : ${{ github.run_id }}
+            Commit SHA   : ${{ github.sha }}
+
+          commit_user_name:  "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author:     "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          skip_dirty_check:  false
+          push_options: '--force'
+
+      # ── Step 11: Summary (always runs — even on failure) ──────────────────
+      - name: "📊 Write job summary"
+        if: always()
+        run: |
+          echo "## 🕷️ Scraper Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| File | Status | Size | Records |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|--------|------|---------|" >> $GITHUB_STEP_SUMMARY
+
+          for f in freelance_data.json data_before_cleaning.csv data_after_cleaning.csv; do
+            FULL="$WS/$f"
+            if [ -f "$FULL" ]; then
+              SIZE=$(wc -c < "$FULL")
+              if [[ "$f" == *.csv ]]; then
+                # Subtract 1 for header; wc -l counts newlines so a file
+                # with only a header and no trailing newline gives 0 — floor at 0.
+                RAW_LINES=$(wc -l < "$FULL")
+                DATA_ROWS=$(( RAW_LINES > 0 ? RAW_LINES - 1 : 0 ))
+                REC_CELL="${DATA_ROWS} data rows"
+              else
+                PROJ=$(python -c "
+          import json
+          with open('$FULL') as fh:
+              d = json.load(fh)
+          print(len(d.get('projects', [])))
+          " 2>/dev/null || echo "?")
+                REC_CELL="${PROJ} projects"
+              fi
+              echo "| \`$f\` | ✅ Produced | ${SIZE} bytes | ${REC_CELL} |" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "| \`$f\` | ❌ Not produced | — | — |" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Triggered by:** \`${{ github.event_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Workflow run:** [\`${{ github.run_id }}\`](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "_Workspace: \`${{ github.workspace }}\`_" >> $GITHUB_STEP_SUMMARY
